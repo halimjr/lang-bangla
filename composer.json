@@ -5,7 +5,7 @@
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
-        "flarum/core": "^1"
+        "flarum/core": "^1.0"
     },
     "authors": [
         {
@@ -34,7 +34,7 @@
         },
         "flarum-locale": {
             "code": "bn",
-            "title": "Bangla"
+            "title": "বাংলা"
         }
     }
 }

@@ -1,0 +1,34 @@
+{
+    "name": "flarum/lang-bangla",
+    "type": "flarum-extension",
+    "description": "Bangla language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Bangla",
+            "category": "language",
+            "info": {
+                "donate": "https://flarum.org/donate/",
+                "website": "https://flarum.org",
+                "support": "https://discuss.flarum.org"
+            },
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#4caf50",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "bn",
+            "title": "Bangla"
+        }
+    }
+}

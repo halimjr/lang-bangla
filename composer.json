@@ -6,7 +6,7 @@
     "license": "MIT",
     "version": "dev",
     "require": {
-        "flarum/core": "^1.0"
+        "flarum/core": "^1.1"
     },
     "authors": [
         {

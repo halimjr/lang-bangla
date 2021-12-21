@@ -1,29 +1,33 @@
 {
-    "name": "halimjr/lang-bangla",
+    "name": "halimr/lang-bangla",
+    "description": "Bangla language extension pack for Flarum.",
     "type": "flarum-extension",
-    "description": "Bangla language pack.",
-    "keywords": ["locale"],
+    "keywords": ["extension", "flarum", "bangla", "locale", "translation"],
     "license": "MIT",
-    "require": {
-        "flarum/core": "^1.0"
-    },
     "authors": [
         {
             "name": "Abdul Halim",
             "email": "hello@halimjr.com",
-            "role": "Translator"
-        }],
+            "homepage": "halimjr/lang-bangla"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/halimjr/lang-bangla/issues",
+        "source": "https://github.com/halimjr/lang-bangla"
+    },
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.x-dev"
+            "dev-master": "1.10.x-dev"
         },
         "flarum-extension": {
             "title": "Bangla",
             "category": "language",
             "info": {
-                "donate": "https://flarum.org/donate/",
-                "website": "https://flarum.org",
-                "support": "https://discuss.flarum.org"
+                "website": "https://github.com/halimjr/lang-bangla",
+                "support": "https://github.com//halimjr/lang-bangla/issues"
             },
             "icon": {
                 "image": "icon.svg",

@@ -1,5 +1,5 @@
 {
-    "name": "flarum/lang-bangla",
+    "name": "halimjr/lang-bangla",
     "type": "flarum-extension",
     "description": "Bangla language pack.",
     "keywords": ["locale"],

@@ -1,0 +1,304 @@
+core:
+    admin:
+        basics:
+            all_discussions_label: 'সমস্ত আলোচনা'
+        edit_css:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        edit_group:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        edit_header:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        nav:
+            search_placeholder: 'এক্সটেনশন অনুসন্ধান করুন'
+        permissions:
+            search_users_label: 'ব্যবহারকারীদের অনুসন্ধান করুন'
+            start_discussions_label: 'একটি আলোচনা শুরু করুন'
+            view_hidden_groups_label: 'লুকানো গ্রুপ ব্যাজ দেখুন'
+        settings:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        users:
+            grid:
+                columns:
+                    group_badges:
+                        no_badges: 'কোনোটিই নয়'
+                        title: গ্রুপ
+                    join_time:
+                        title: 'যোগদান করেছেন'
+                    username:
+                        profile_link_tooltip: '{username} এর প্রোফাইলে যান'
+    forum:
+        change_email:
+            confirm_password_placeholder: 'পাসওয়ার্ড নিশ্চিত করুন'
+            confirmation_message: 'আমরা {email} এ একটি নিশ্চিতকরণ ইমেইল পাঠিয়েছি। যদি এটি শীঘ্রই না আসে, আপনার স্প্যাম ফোল্ডার চেক করুন।'
+            dismiss_button: 'ঠিক আছে'
+            incorrect_password_message: 'আপনার দেওয়া পাসওয়ার্ডটি ভুল।'
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+            title: 'ইমেইল পরিবর্তন করুন'
+        change_password:
+            send_button: 'পাসওয়ার্ড রিসেট ইমেইল পাঠান'
+            text: 'নীচের বোতামে ক্লিক করুন এবং আপনার পাসওয়ার্ড পরিবর্তন করার জন্য একটি লিঙ্কের জন্য আপনার ইমেইল চেক করুন।'
+            title: 'পাসওয়ার্ড পরিবর্তন করুন'
+        composer_discussion:
+            body_placeholder: 'একটি পোস্ট লিখুন…'
+            discard_confirmation: 'আপনি আপনার আলোচনা পোস্টটি করেননি। আপনি কি এটি বাতিল করতে চান?'
+            submit_button: 'আলোচনা পোস্ট করুন'
+            title: 'একটি আলোচনা শুরু করুন'
+            title_placeholder: 'আলোচনার শিরোনাম'
+        composer_edit:
+            discard_confirmation: 'আপনি আপনার পরিবর্তনগুলি সংরক্ষণ করেননি৷ আপনি কি সেগুলিকে বাতিল করতে চান?'
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        composer:
+            close_tooltip: 'বন্ধ করুন'
+            exit_full_screen_tooltip: 'পূর্ণ পর্দা সরান'
+            full_screen_tooltip: 'পূর্ণ পর্দা'
+            minimize_tooltip: 'ছোট করুন'
+            preview_tooltip: প্রিভিউ
+        discussion_list:
+            empty_text: 'মনে হচ্ছে এখানে কোনো আলোচনা নেই।'
+        header:
+            profile_button: প্রোফাইল
+            search_clear_button_accessible_label: 'অনুসন্ধান ক্যোয়ারী সাফ করুন'
+            search_placeholder: 'ফোরাম অনুসন্ধান করুন'
+            search_role_label: 'ফোরাম অনুসন্ধান করুন'
+        index_sort:
+            latest_button: সর্বশেষ
+            newest_button: 'সবথেকে নতুন'
+            oldest_button: 'সবচেয়ে পুরনো'
+            top_button: শীর্ষ
+        index:
+            all_discussions_link: 'সমস্ত আলোচনা'
+            mark_all_as_read_confirmation: 'আপনি কি সমস্ত আলোচনা পঠিত হিসাবে চিহ্নিত করার বিষয়ে নিশ্চিত?'
+            meta_title_text: 'সমস্ত আলোচনা'
+            start_discussion_button: 'একটি আলোচনা শুরু করুন'
+        notifications:
+            discussion_renamed_text: '{username} শিরোনাম পরিবর্তন করেছে'
+            empty_text: 'নোটিফিকেশন নেই'
+            mark_all_as_read_tooltip: 'সমস্ত পঠিত হিসাবে চিহ্নিত করুন'
+            mark_as_read_tooltip: 'পঠিত হিসেবে চিহ্নিত করুন'
+            title: নোটিফিকেশন
+            toggle_dropdown_accessible_label: 'নোটিফিকেশনগুলি দেখুন'
+            tooltip: নোটিফিকেশন
+        post_scrubber:
+            now_link: এখন
+            original_post_link: 'মূল পোস্ট'
+            viewing_text: '{count, plural, one {{formattedCount} পোস্টের {index}} other {{index}/{formattedCount} পোস্ট}}'
+        search:
+            all_discussions_button: '"{query}" এর জন্য সমস্ত আলোচনা খুঁজুন'
+            discussions_heading: আলোচনা
+        settings:
+            notifications_heading: নোটিফিকেশন
+            privacy_disclose_online_label: 'আমি যখন অনলাইন থাকি তখন অন্যদের দেখতে দিন'
+        user:
+            joined_date_text: '{ago} যোগ দিয়েছেন'
+            online_text: অনলাইন
+    lib:
+        edit_user:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+    ref:
+        all_discussions: 'সমস্ত আলোচনা'
+        notifications: নোটিফিকেশন
+        save_changes: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+    views:
+        index:
+            all_discussions_heading: 'সমস্ত আলোচনা'
+        reset_password:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+flarum-emoji:
+    forum:
+        composer:
+            type_to_search_text: 'ইমোজি অনুসন্ধান করতে টাইপ করুন'
+flarum-flags:
+    admin:
+        permissions:
+            flag_posts_label: 'ফ্ল্যাগ পোস্ট'
+            view_flags_label: 'ফ্ল্যাগ করা পোস্ট দেখুন'
+        settings:
+            flag_own_posts_label: 'ব্যবহারকারীদের তাদের নিজস্ব পোস্ট ফ্ল্যাগ করার অনুমতি দিন'
+            guidelines_url_label: 'কমিউনিটি নির্দেশিকা URL'
+            title: 'ফ্ল্যাগ সেটিংস'
+    forum:
+        flag_post:
+            confirmation_message: 'এই পোস্ট ফ্ল্যাগ করার জন্য আপনাকে ধন্যবাদ। আমাদের মডারেটররা এটা দেখবেন।'
+            dismiss_button: 'ঠিক আছে'
+            reason_details_placeholder: 'অতিরিক্ত বিবরণ (ঐচ্ছিক)'
+            reason_inappropriate_label: অনুপযুক্ত
+            reason_inappropriate_text: 'এই পোস্টটি আপত্তিকর, অপমানজনক, অথবা আমাদের <a>community guidelines</a> লঙ্ঘন করে৷'
+            reason_missing_message: 'আমাদের মডারেটরদের জন্য কিছু বিবরণ প্রদান করুন।'
+            reason_off_topic_label: অফ-টপিক
+            reason_off_topic_text: 'এই পোস্টটি বর্তমান আলোচনার সাথে প্রাসঙ্গিক নয় এবং অন্যত্র সরানো উচিত।'
+            reason_other_label: 'অন্যান্য (উল্লেখ করুন)'
+            reason_spam_label: স্প্যাম
+            reason_spam_text: 'এই পোস্টটি একটি বিজ্ঞাপন।'
+            submit_button: 'ফ্ল্যাগ পোস্ট'
+            title: 'ফ্ল্যাগ পোস্ট'
+        flagged_posts:
+            empty_text: 'কোনো ফ্ল্যাগ নেই'
+            item_text: '<em>{discussion}</em> এ {username}'
+            title: 'ফ্ল্যাগ করা পোস্ট'
+            tooltip: 'ফ্ল্যাগ করা পোস্ট'
+        post_controls:
+            flag_button: ফ্ল্যাগ
+        post:
+            dismiss_flag_button: 'ফ্ল্যাগ খারিজ করুন'
+            flagged_by_text: '{username} দ্বারা ফ্ল্যাগ করা'
+            flagged_by_with_reason_text: '{username} দ্বারা {reason} হিসাবে ফ্ল্যাগ করা হয়েছে'
+    ref:
+        flag_post: 'ফ্ল্যাগ পোস্ট'
+        flagged_posts: 'ফ্ল্যাগ করা পোস্ট'
+flarum-likes:
+    forum:
+        notifications:
+            post_liked_text: '{username} আপনার পোস্ট পছন্দ করেছে৷'
+flarum-lock:
+    forum:
+        notifications:
+            discussion_locked_text: '{username} লক করা হয়েছে'
+flarum-mentions:
+    forum:
+        notifications:
+            post_mentioned_text: '{username} আপনার পোস্টের উত্তর দিয়েছে'
+            user_mentioned_text: '{username} আপনাকে মেনশন করেছে'
+flarum-nicknames:
+    forum:
+        change_nickname:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+flarum-subscriptions:
+    email:
+        new_post:
+            body: "আরে {recipient_display_name}!\n\nআপনি অনুসরণ করছেন এমন একটি আলোচনায় {poster_display_name} একটি পোস্ট করেছে: {title}।\n\nনতুন কার্যকলাপ দেখতে, নিম্নলিখিত লিঙ্কটি দেখুন:\n{url}\n\n---\n\n{content}\n\n---\n\nআপনি আপ-টু-ডেট না হওয়া পর্যন্ত আপনি এই আলোচনা সম্পর্কে আর কোনো বিজ্ঞপ্তি পাবেন না।"
+    forum:
+        badge:
+            following_tooltip: 'অনুসরণ করছি'
+        following:
+            meta_title_text: 'অনুসরণ করছি'
+        index:
+            following_link: 'অনুসরণ করছি'
+        notifications:
+            new_post_text: '{username} পোস্ট করেছেন'
+        sub_controls:
+            following_button: 'অনুসরণ করছি'
+flarum-suspend:
+    forum:
+        notifications:
+            user_suspended_text: 'আপনাকে {timeReadable} এর জন্য সাসপেন্ড করা হয়েছে'
+            user_unsuspended_text: 'আপনার সাসপেন্ড শেষ হয়েছে'
+        suspend_user:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+flarum-tags:
+    admin:
+        basics:
+            tags_label: ট্যাগ
+        edit_tag:
+            delete_tag_button: 'ট্যাগ মুছুন'
+            hide_label: 'সমস্ত আলোচনা থেকে লুকান'
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        nav:
+            tags_button: ট্যাগ
+    forum:
+        all_tags:
+            meta_description_text: 'সমস্ত ট্যাগ'
+            meta_title_text: ট্যাগ
+        choose_tags:
+            choose_primary_placeholder: '{count, plural, one {একটি প্রাথমিক ট্যাগ নির্বাচন করুন} other {#টি প্রাথমিক ট্যাগ বেছে নিন}}'
+            choose_secondary_placeholder: '{count, plural, one {আরও 1টি ট্যাগ বেছে নিন} other {আরও #টি ট্যাগ বেছে নিন}}'
+            edit_title: '{title} এর জন্য ট্যাগ সম্পাদনা করুন'
+            submit_button: 'ঠিক আছে'
+            title: 'আপনার আলোচনার জন্য ট্যাগ নির্বাচন করুন'
+        composer_discussion:
+            choose_tags_link: 'ট্যাগ নির্বাচন করুন'
+        discussion_controls:
+            edit_tags_button: 'ট্যাগ সম্পাদনা করুন'
+        header:
+            back_to_tags_tooltip: 'ট্যাগ তালিকায় ফিরে যান'
+        index:
+            more_link: আরও…
+            tags_link: ট্যাগ
+            untagged_link: ট্যাগহীন
+        post_stream:
+            added_and_removed_tags_text: '{username} {tagsAdded} যোগ করেছে এবং {tagsRemoved} সরিয়ে দিয়েছে।'
+            added_tags_text: '{username}  {tagsAdded} যোগ করেছে'
+            removed_tags_text: '{username} {tagsRemoved} সরিয়ে দিয়েছে।'
+            tags_text: '{count, plural, one {{tags} ট্যাগ} other {{tags} ট্যাগ}}'
+        tag:
+            meta_description_text: '{tag} ট্যাগের সমস্ত আলোচনা৷'
+    lib:
+        deleted_tag_text: 'মুছে ফেলা হয়েছে'
+    ref:
+        name: নাম
+        tags: ট্যাগ
+fof-linguist:
+    admin:
+        filters:
+            search: 'অনুবাদ স্ট্রিং অনুসন্ধান করুন…'
+v17development-flarum-badges:
+    admin:
+        auto_moderator:
+            action_drivers:
+                badge_id: 'ব্যাজ আইডি'
+                give_badge: 'ব্যাজ দিন'
+                remove_badge: 'ব্যাজ সরান'
+            badge_selector:
+                loading_badges: 'ব্যাজ লোড হচ্ছে'
+                placeholder: 'একটি ব্যাজ নির্বাচন করুন'
+            metric_drivers:
+                badges_received: 'ব্যাজ প্রাপ্ত হয়েছে'
+            not_installed:
+                content: 'যখন <a>Auto Moderator</a> ইনস্টল এবং সক্রিয় করা হয় তখন এই এক্সটেনশনটি আরও কার্যকারিতা প্রদান করে৷ আপনি যখন এই এক্সটেনশনটি ইনস্টল করেন, তখন ব্যবহারকারীরা স্বয়ংক্রিয়ভাবে কোনো সম্প্রদায়ের কর্মচারীর হস্তক্ষেপ ছাড়াই ব্যাজ দিয়ে পুরস্কৃত হতে পারেন!'
+                dismiss: 'আবার দেখাবেন না'
+                install: 'ইনস্টল করুন'
+                title: 'ব্যবহারকারীদের স্বয়ংক্রিয়ভাবে ব্যাজ দিয়ে পুরস্কৃত করুন'
+            requirement_drivers:
+                has_badge: 'ব্যাজ রয়েছে'
+        badge_category:
+            blockview: ব্লক-ভিউ
+        badge:
+            background_color: 'পেছনের রঙ'
+            description: 'ব্যাজের বিবরণ'
+            icon: 'ব্যাজ আইকন'
+            icon_color: 'আইকনের রঙ'
+            image: 'ব্যাজ ছবির URL'
+            image_placeholder: 'ব্যাজ ইমেজ URL লিখুন'
+            is_image: 'ব্যাজ একটি ছবি'
+            is_image_description: 'ডিফল্ট ব্যাজের পরিবর্তে একটি ছবি ব্যবহার করুন'
+            label_color: 'লেখার রঙ'
+            name: 'ব্যাজের নাম'
+            visible: দৃশ্যমান
+            visible_description: 'এই ব্যাজ চালু করুন। অক্ষম করা হলে, ব্যাজটি দৃশ্যমান হবে না।'
+    forum:
+        badge_information: 'ব্যাজের তথ্য'
+        badge:
+            badge: ব্যাজ
+            badge_details: 'ব্যাজের বিবরণ'
+            badges: ব্যাজ
+            category: 'ব্যাজ ক্যাটাগরি'
+            description: 'ব্যাজের বিবরণ'
+            earned_by_count: '{count, plural, one {<b># জন ব্যবহারকারী</b> অর্জন করেছেন} other {<b># জন ব্যবহারকারী</b> অর্জন করেছেন}}'
+            earned_count: '{count, plural, one {<b># জন ব্যবহারকারী</b> এই ব্যাজ অর্জন করেছেন} other {<b># জন ব্যবহারকারী</b> এই ব্যাজ অর্জন করেছেন}}'
+            earned_on: 'ব্যাজ অর্জিত হয়েছে'
+            earning_reason: 'ব্যাজ অর্জনের কারণ'
+            name: 'ব্যাজের নাম'
+            no_earning_reason: 'কোন কারণ দেয়া হয়নি '
+            received_on: '{date} এ প্রাপ্ত'
+            update_earning_reason: 'উপার্জনের কারণ আপডেট করুন'
+        give_badge: 'ব্যাজ দিন'
+        moderation:
+            give_badge: 'ব্যাজ দিন'
+            remove_badge: 'ব্যবহারকারী থেকে ব্যাজ সরান'
+            remove_badge_confirm: 'আপনি কি এই ব্যবহারকারীর কাছ থেকে এই ব্যাজটি সরানোর বিষয়ে নিশ্চিত?'
+        no_received: 'কোনো ব্যবহারকারী এই ব্যাজ অর্জন করেননি।'
+        notification:
+            settings: 'আমি একটি ব্যাজ পেয়েছি'
+            title: 'আপনি একটি নতুন ব্যাজ পেয়েছেন'
+        select_badge: 'ব্যাজ নির্বাচন করুন'
+        uncategorized: 'শ্রেণী বহির্ভূত'
+        update_badge: 'ব্যাজ আপডেট করুন'
+        user_has_badge: 'ব্যবহারকারীর কাছে ইতিমধ্যেই এই ব্যাজ রয়েছে৷'
+        user_no_badges: 'এই ব্যবহারকারীর এখনো কোনো ব্যাজ নেই।'
+v17development-flarum-seo:
+    forum:
+        profile_description: '{username} এর প্রোফাইল | {discussion_count} আলোচনা | {comment_count}টি পোস্ট'
+        profile_title: '{username} এর প্রোফাইল'
+validation:
+    attributes:
+        tag_count_primary: 'প্রাথমিক ট্যাগের সংখ্যা'
+        tag_count_secondary: 'সেকেন্ডারি ট্যাগের সংখ্যা'

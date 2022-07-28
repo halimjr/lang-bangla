@@ -2,7 +2,7 @@
     "name": "halimjr/lang-bangla",
     "description": "Bangla language extension pack for Flarum.",
     "type": "flarum-extension",
-    "keywords": ["extension", "flarum", "bangla", "locale", "translation"],
+    "keywords": ["extension", "flarum", "bangla", "language", "bengali", "locale", "translation"],
     "license": "MIT",
     "authors": [
         {

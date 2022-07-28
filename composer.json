@@ -1,5 +1,5 @@
 {
-    "name": "halimr/lang-bangla",
+    "name": "halimjr/lang-bangla",
     "description": "Bangla language extension pack for Flarum.",
     "type": "flarum-extension",
     "keywords": ["extension", "flarum", "bangla", "locale", "translation"],
@@ -8,7 +8,7 @@
         {
             "name": "Abdul Halim",
             "email": "hello@halimjr.com",
-            "homepage": "halimjr/lang-bangla"
+            "homepage": "https://halimjr.com/"
         }
     ],
     "support": {

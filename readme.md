@@ -2,5 +2,5 @@
 Bangla language pack for flarum forum software.
 ## Install
 ```
-composer require halimjr/lang-bangla
+composer require halimjr/lang-bangla:dev-main
 ```

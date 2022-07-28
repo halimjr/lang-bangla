@@ -1,0 +1,4 @@
+flarum-pusher:
+    forum:
+        discussion_list:
+            show_updates_text: '{count, plural, one {আপডেট হওয়া # আলোচনা দেখুন} other {আপডেট হওয়া # আলোচনা দেখুন}}'

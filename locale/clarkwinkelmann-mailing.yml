@@ -1,0 +1,30 @@
+clarkwinkelmann-mailing:
+    admin:
+        permissions:
+            mail_all: 'গ্রুপ বা সমস্ত ব্যবহারকারীদের ইমেইল পাঠান'
+            mail_individual: 'স্বতন্ত্র ব্যবহারকারীদের ইমেইল পাঠান'
+    api:
+        no_recipients: 'কোনো প্রাপকের সাথে মিল নেই'
+    email:
+        default_subject: 'ফোরাম প্রশাসন থেকে বার্তা'
+    forum:
+        links:
+            mail_all: 'ইমেইল পাঠান'
+            mail_individual: 'ইমেইল করুন'
+        modal_mail:
+            default_subject: 'ফোরাম প্রশাসন থেকে বার্তা'
+            message_label: বার্তা
+            recipients_label: প্রাপক
+            recipients_placeholder: 'আরো প্রাপক যোগ করুন…'
+            subject_label: বিষয়
+            submit_button: পাঠান
+            title_text: 'মেইল রচনা করুন'
+        modal_sent:
+            on_its_way: 'হাই ফাইভ! আপনার মেইল {recipientsCount} প্রাপকের কাছে পৌঁছেছে!'
+            title_text: 'মেইল পাঠানো হয়েছে!'
+        recipient_kinds:
+            email: ইমেইল
+            group: গ্রুপ
+            user: ব্যবহারকারী
+    ref:
+        default_subject: 'ফোরাম প্রশাসন থেকে বার্তা'

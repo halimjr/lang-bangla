@@ -1,0 +1,10 @@
+flarum-approval:
+    forum:
+        badge:
+            awaiting_approval_tooltip: 'অনুমোদনের অপেক্ষায় রয়েছে'
+        post_controls:
+            approve_button: 'অনুমোদন দিন'
+        post:
+            awaiting_approval_text: 'অনুমোদনের অপেক্ষায় রয়েছে'
+    ref:
+        awaiting_approval: 'অনুমোদনের অপেক্ষায় রয়েছে'

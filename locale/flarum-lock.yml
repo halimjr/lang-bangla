@@ -1,0 +1,17 @@
+flarum-lock:
+    admin:
+        permissions:
+            lock_discussions_label: 'আলোচনা তালা লাগানো'
+    forum:
+        badge:
+            locked_tooltip: 'তালা লাগানো'
+        discussion_controls:
+            lock_button: 'তালা লাগান'
+            unlock_button: 'তালা খুলুন'
+        notifications:
+            discussion_locked_text: '{username} আলোচনাটি লক করেছেন'
+        post_stream:
+            discussion_locked_text: '{username} আলোচনাটি তালা দিয়েছেন।'
+            discussion_unlocked_text: '{username} আলোচনাটির তালা খুলেছেন।'
+        settings:
+            notify_discussion_locked_label: 'আমার শুরু করা আলোচনাকে কেউ তালা দিলে'

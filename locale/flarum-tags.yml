@@ -1,0 +1,45 @@
+flarum-tags:
+    admin:
+        basics:
+            tags_label: ট্যাগ
+        edit_tag:
+            delete_tag_button: 'ট্যাগ মুছুন'
+            hide_label: 'সমস্ত আলোচনা থেকে লুকান'
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        nav:
+            tags_button: ট্যাগ
+        permissions:
+            bypass_tag_counts_label: 'ট্যাগের প্রয়োজনীয়তা উপেক্ষা করুন'
+    forum:
+        all_tags:
+            meta_description_text: 'সমস্ত ট্যাগ'
+            meta_title_text: ট্যাগ
+        choose_tags:
+            bypass_requirements: 'ট্যাগের প্রয়োজনীয়তা উপেক্ষা করুন'
+            choose_primary_placeholder: '{count, plural, one {একটি প্রাথমিক ট্যাগ নির্বাচন করুন} other {#টি প্রাথমিক ট্যাগ বেছে নিন}}'
+            choose_secondary_placeholder: '{count, plural, one {আরও 1টি ট্যাগ বেছে নিন} other {আরও #টি ট্যাগ বেছে নিন}}'
+            edit_title: '{title} এর জন্য ট্যাগ সম্পাদনা করুন'
+            submit_button: 'ঠিক আছে'
+            title: 'আপনার আলোচনার জন্য ট্যাগ নির্বাচন করুন'
+        composer_discussion:
+            choose_tags_link: 'ট্যাগ নির্বাচন করুন'
+        discussion_controls:
+            edit_tags_button: 'ট্যাগ সম্পাদনা করুন'
+        header:
+            back_to_tags_tooltip: 'ট্যাগ তালিকায় ফিরে যান'
+        index:
+            more_link: আরও…
+            tags_link: ট্যাগ
+            untagged_link: ট্যাগহীন
+        post_stream:
+            added_and_removed_tags_text: '{username} {tagsAdded} যোগ করেছেন এবং {tagsRemoved} সরিয়ে দিয়েছেন।'
+            added_tags_text: '{username}  {tagsAdded} যোগ করেছেন।'
+            removed_tags_text: '{username} {tagsRemoved} সরিয়ে দিয়েছেন।'
+            tags_text: '{count, plural, one {{tags} ট্যাগ} other {{tags} ট্যাগ}}'
+        tag:
+            meta_description_text: '{tag} ট্যাগের সমস্ত আলোচনা'
+    lib:
+        deleted_tag_text: 'মুছে ফেলা হয়েছে'
+    ref:
+        name: নাম
+        tags: ট্যাগ

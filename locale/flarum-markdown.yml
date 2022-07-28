@@ -1,0 +1,14 @@
+flarum-markdown:
+    forum:
+        composer:
+            bold_tooltip: 'বোল্ড টেক্সট যোগ করুন'
+            code_tooltip: 'কোড প্রবেশ করান'
+            header_tooltip: 'হেডার টেক্সট যোগ করুন'
+            image_tooltip: 'একটি ইমেজ যোগ করুন (ইমেজ লিংক)'
+            italic_tooltip: 'ইটালিক টেক্সট যোগ করুন'
+            link_tooltip: 'একটি লিঙ্ক যুক্ত করুন'
+            ordered_list_tooltip: 'একটি সংখ্যাযুক্ত তালিকা যোগ করুন'
+            quote_tooltip: 'একটি উদ্ধৃতি প্রবেশ করান'
+            spoiler_tooltip: 'একটি স্পয়লার প্রবেশ করান'
+            strikethrough_tooltip: 'স্ট্রাইকথ্রু টেক্সট যোগ করুন'
+            unordered_list_tooltip: 'একটি বুলেটযুক্ত তালিকা যোগ করুন'

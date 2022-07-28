@@ -1,0 +1,4 @@
+v17development-flarum-seo:
+    forum:
+        profile_description: '{username} এর প্রোফাইল | {discussion_count}টি আলোচনা  শুরু করেছেন | সর্বমোট {comment_count}টি  উত্তর পোস্ট করেছেন'
+        profile_title: '{username} এর প্রোফাইল'

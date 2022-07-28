@@ -1,0 +1,40 @@
+fof-upload:
+    admin:
+        pane:
+            description: 'আপলোডিং পরিষেবা এবং পছন্দগুলি সেট করুন।'
+        upload_methods:
+            imagekit: Imagekit
+    api:
+        upload_errors:
+            could_not_detect_mime: 'এই ফাইলটির MIME সনাক্ত করা যায়নি, অনুগ্রহ করে আবার চেষ্টা করুন।'
+            forbidden_type: 'এই ধরনের ফাইল আপলোড অনুমোদিত নয়।'
+            unsupported_type: 'আপলোড অ্যাডাপ্টার প্রদত্ত মাইম প্রকার সমর্থন করে না: {mime}'
+    forum:
+        buttons:
+            attach: 'সংযুক্ত করুন'
+            cancel: 'বাতিল করুন'
+            media: 'আমার মিডিয়া'
+            upload: 'আপলোড করুন'
+            user_uploads: 'ব্যবহারকারীর আপলোড'
+        file_list:
+            confirm_selection_btn: '{fileCount, plural, =0 {কোনোটিই বেছে নেওয়া হয়নি} one {ফাইল নির্বাচন করুন} other {ফাইলগুলি নির্বাচন করুন}}'
+            empty: 'দেখানোর মত কোনো ফাইল নেই'
+            hide_file:
+                btn_a11y_label: 'মিডিয়া ম্যানেজার থেকে "{fileName}" লুকান'
+                hide_confirmation: 'আপনি কি "{fileName}" লুকাতে চান? একটি ফাইল লুকিয়ে রাখলে এটি শুধুমাত্র আপনার মিডিয়া ম্যানেজার থেকে মুছে যাবে এবং বিদ্যমান পোস্টগুলিকে প্রভাবিত করবে না '
+                hide_fail: 'ফাইল "{fileName}" লুকানো যায়নি'
+                hide_success: 'ফাইল লুকানো হয়েছে'
+                loading: 'ফাইল লুকানো হচ্ছে…'
+            load_more_files_btn: 'আরো ফাইল দেখুন'
+            loading: 'ফাইল লোড হচ্ছে…'
+            modal_empty_desktop: 'আপনার ফাইলের তালিকা খালি। ফাইল আপলোড করতে উপরে ডান পাশের আপলোড বোতামটিতে ক্লিক করুন বা আপলোড করার জন্য একটি ফাইল এখানে টেনে আনুন।'
+            modal_empty_phone: 'আপনার ফাইলের তালিকা খালি। ফাইল আপলোড করতে উপরে ডান পাশের আপলোড বোতামটি আলতো চাপুন।'
+            release_to_upload: 'আপলোড করতে ছেড়ে দিন'
+            select_file_a11y_label: 'ফাইল "{fileName}" নির্বাচন করুন'
+        media_manager: 'মিডিয়া ম্যানেজার'
+        states:
+            error: ত্রুটি
+            loading: 'আপলোড হচ্ছে'
+            unauthorized: 'আপনার ফাইল ডাউনলোড করার অনুমতি নেই'
+        validation:
+            max_size: '{max} kb এর বেশি আপলোড গ্রহণ করা হয় না।'

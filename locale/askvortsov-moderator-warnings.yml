@@ -1,0 +1,46 @@
+askvortsov-moderator-warnings:
+    emails:
+        post_warned:
+            body: "আরে {warnee_display_name}!\n\n{warner_display_name} আপনাকে \"{discussion_title}\" এ {strikes, plural, one {# স্ট্রাইক} other {# স্ট্রাইক}}  দিয়ে সতর্ক করেছে।\n\nনিম্নে তার কারণ দেওয়া হল:\n\n---\n\n{public_comment}\n"
+            subject: '{warner_display_name} আপনাকে "{discussion_title}" এ {strikes, plural, one {# স্ট্রাইক } other {# স্ট্রাইক }} দিয়ে সতর্ক করেছে'
+        user_warned:
+            body: "আরে {warnee_display_name}!\n\n{warner_display_name} আপনাকে {strikes, plural, one {# স্ট্রাইক} other {# স্ট্রাইক}}  দিয়ে সতর্ক করেছে।\n\nনিম্নে তার কারণ দেওয়া হল:\n\n---\n\n{public_comment}\n\n"
+            subject: '{warner_display_name} আপনাকে {strikes, plural, one {# স্ট্রাইক} other {# স্ট্রাইক}} দিয়ে সতর্ক করেছে'
+    forum:
+        notifications:
+            warning_no_strikes_text: 'আপনাকে {mod_username} দ্বারা সতর্ক করা হয়েছে (কোন স্ট্রাইক নেই)'
+            warning_text: '{strikes, plural, one {আপনাকে {mod_username} দ্বারা # স্ট্রাইক দিয়ে সতর্ক করা হয়েছে} other {আপনাকে {mod_username} দ্বারা # স্ট্রাইক দিয়ে সতর্ক করা হয়েছে}}'
+        post_controls:
+            warning_button: 'ব্যবহারকারীকে সতর্ক করুন'
+        post:
+            warning: '{strikes, plural, one {{mod_username} দ্বারা # স্ট্রাইক দিয়ে সতর্ক করা হয়েছে} other {{mod_username} দ্বারা # স্ট্রাইক দিয়ে সতর্ক করা হয়েছে}}'
+            warning_no_strikes: '{mod_username} দ্বারা কোনো স্ট্রাইক ছাড়াই সতর্ক করা হয়েছে'
+        settings:
+            warning_notification_label: 'যখন মডারেটর আমাকে সতর্ক করে'
+        user:
+            warnings: 'মডারেটর সতর্কবার্তা'
+        validation:
+            invalid_strike_count: 'স্ট্রাইকের সংখ্যা অবশ্যই 0 এবং 5 এর মধ্যে একটি পূর্ণসংখ্যা হতে হবে।'
+            public_comment_required: 'আপনাকে অবশ্যই পাবলিক মন্তব্য প্রদান করতে হবে।'
+        warning_controls:
+            delete_button: অপসারণ
+            delete_forever_button: 'চিরতরে মুছুন'
+            restore_button: 'পুনরুদ্ধার করুন'
+        warning_list_item:
+            linked_post: 'লিঙ্ক করা পোস্ট'
+            list_item_heading: '{strikes, plural, one {<strong>#</strong> স্ট্রাইক, {time}} other {<strong>#</strong> স্ট্রাইক, {time}}}'
+            list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> স্ট্রাইক <strong>(সরানো হয়েছে)</strong> {time}} other {<strong>#</strong> স্ট্রাইক <strong>(সরানো হয়েছে)</strong> {time}}'
+            private_comment: 'মডারেটর-দৃশ্যমান মন্তব্য'
+            public_comment: সতর্কবার্তা
+        warning_list:
+            add_button: 'নতুন সতর্কবার্তা'
+            no_warnings: 'দেখে মনে হচ্ছে এখানে কোনো সতর্কবার্তা নেই।'
+            warnings: '{strikes, plural, one {মডারেটর সতর্কবার্তা: # স্ট্রাইক প্রাপ্তি} other {মডারেটর সতর্কবার্তা: # স্ট্রাইক প্রাপ্তি}}'
+            warnings_no_strikes: 'মডারেটর সতর্কবার্তা: কোন স্ট্রাইক পায়নি'
+        warning_modal:
+            confirmation_message: 'আপনার সতর্কবার্তা সংরক্ষিত হয়েছে, এটি দেখার জন্য আপনাকে পৃষ্ঠাটি রিফ্রেশ করতে হতে পারে।'
+            heading: '<strong>{username}</strong> কে সতর্ক করুন'
+            private_comment_heading: 'কেন <strong>{username}</strong> এই সতর্কবাণী পাচ্ছে? এই মন্তব্য শুধুমাত্র অন্য মডারেটরদের কাছে দৃশ্যমান হবে।'
+            public_comment_heading: 'কেন <strong>{username}</strong> এই সতর্কবাণী পাচ্ছে? এই মন্তব্য ব্যবহারকারী এবং অন্যান্য মডারেটরদের কাছে দৃশ্যমান হবে।'
+            strikes_heading: 'কয়টি স্ট্রাইক প্রয়োগ করতে হবে?'
+            submit_button: 'সতর্কবার্তা সংরক্ষণ করুন'

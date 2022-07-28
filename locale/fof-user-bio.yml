@@ -1,0 +1,4 @@
+fof-user-bio:
+    forum:
+        userbioPlaceholder: 'নিজের সম্পর্কে কিছু লিখুন'
+        userbioPlaceholderOtherUser: '{username} এর জন্য একটি জীবনী লিখুন'

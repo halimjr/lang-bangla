@@ -1,0 +1,5 @@
+flarum-emoji:
+    forum:
+        composer:
+            emoji_tooltip: 'ইমোজি প্রবেশ করান'
+            type_to_search_text: 'ইমোজি অনুসন্ধান করতে ইংরেজিতে টাইপ করুন'

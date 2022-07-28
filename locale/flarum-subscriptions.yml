@@ -1,0 +1,36 @@
+flarum-subscriptions:
+    email:
+        new_post:
+            body: "আরে {recipient_display_name}!\n\nআপনি অনুসরণ করছেন এমন একটি আলোচনায় {poster_display_name} একটি পোস্ট করেছে: \"{title}\"\n\nনতুন কার্যকলাপ দেখতে, নিম্নলিখিত লিঙ্কটি দেখুন:\n{url}\n\n---\n\n{content}\n\n---\n\nআপনি আপ-টু-ডেট না হওয়া পর্যন্ত এই আলোচনা সম্পর্কে আর কোনো বিজ্ঞপ্তি পাবেন না।"
+            subject: '[নতুন পোস্ট] {title}'
+    forum:
+        badge:
+            following_tooltip: 'অনুসরণ করছি'
+            ignoring_tooltip: 'উপেক্ষা করছেন'
+        discussion_controls:
+            follow_button: 'অনুসরণ করুন'
+            unfollow_button: 'অনুসরণ করা বন্ধ করুন'
+            unignore_button: 'গ্রাহ্য করুন'
+        following:
+            meta_title_text: 'অনুসরণ করছেন'
+        index:
+            following_link: 'অনুসরণ করছেন'
+        notifications:
+            new_post_text: '{username} পোস্ট করেছেন'
+        settings:
+            follow_after_reply_label: 'স্বয়ংক্রিয়ভাবে আলোচনা অনুসরণ করুন যেগুলির আমি উত্তর দিই'
+            notify_new_post_label: 'যখন আমি অনুসরণ করছি এমন আলোচনায় কেউ পোস্ট করে'
+        sub_controls:
+            follow_button: 'অনুসরণ করুন'
+            following_button: 'অনুসরণ করছেন'
+            following_text: 'সব উত্তর সম্পর্কে অবহিত করা হবে'
+            ignoring_button: 'উপেক্ষা করছেন'
+            ignoring_text: 'কখনই আপনাকে অবহিত করা হবে না। আলোচনা তালিকা থেকে আড়াল করুন।'
+            not_following_button: 'অনুসরণ করছেন না'
+            not_following_text: 'শুধুমাত্র @মেনশন হলেই অবহিত করা হবে'
+            notify_alert_tooltip: 'যখন নতুন পোস্ট হয় তখন ফোরামের নোটিফিকেশন পান'
+            notify_email_tooltip: 'নতুন পোস্ট হলে একটি ইমেইল পান'
+    ref:
+        follow: অনুসরণ
+        following: 'অনুসরণ করছেন'
+        ignoring: 'উপেক্ষা করছেন'

@@ -1,0 +1,38 @@
+fof-merge-discussions:
+    admin:
+        permissions:
+            merge_discussions_label: 'আলোচনা একত্রীকরণ'
+    api:
+        error:
+            deleting_failed: 'খালি আলোচনা মুছে ফেলতে ব্যর্থ হয়েছে।'
+            fixing_posts_number_failed: 'পোস্ট নম্বর ঠিক করতে ব্যর্থ হয়েছে।'
+            merging_failed: 'আলোচনা মার্জ করতে ব্যর্থ হয়েছে।'
+            updating_failed: 'আলোচনার বিবরণ আপডেট করতে ব্যর্থ হয়েছে।'
+    email:
+        merged:
+            body: "ওহে {recipient_display_name},\n\nআপনার আলোচনা, {merged_discussion_title}, {actor_display_name} দ্বারা {discussion_title} এ মার্জ করা হয়েছে।\n\nএটি এখানে দেখুন {discussion_url}"
+            subject: 'আপনার আলোচনা "{merged_discussion_title}" মার্জ করা হয়েছে'
+    forum:
+        discussion:
+            merge: ' মার্জ'
+        modal:
+            load_preview_button: প্রিভিউ
+            ordering_date_help: 'ফলস্বরূপ আলোচনার পোস্টগুলি তাদের স্বতন্ত্র সৃষ্টির তারিখ অনুসারে পুনর্বিন্যাস করা হবে'
+            ordering_date_label: 'তৈরির তারিখ অনুসারে পোস্টগুলি মার্জ করুন'
+            ordering_heading: 'মার্জ অর্ডারিং'
+            ordering_suffix_help: 'টিকে থাকা আলোচনায় মার্জ করা পোস্টটি আলোচনার শেষে যুক্ত করা হবে'
+            ordering_suffix_label: 'আলোচনার শেষে মার্জ করা পোস্ট যোগ করুন'
+            submit_button: 'মার্জ করুন'
+            title: 'আলোচনা মার্জ করুন'
+            type_from_label: 'এই আলোচনাটিকে অন্য একটির সাথে মার্জ করুন'
+            type_heading: 'মার্জ টাইপ'
+            type_target_help_text: '<b>{title}</b> এ মার্জ করতে আলোচনা(গুলি) বেছে নিন।'
+            type_target_label: 'অন্য একটিকে এই আলোচনার সাথে মার্জ করুন'
+        notification:
+            discussion_merged: 'আপনার আলোচনা <b>{oldTitle}</b> {username} দ্বারা এই আলোচনায় মার্জ করা হয়েছে।'
+            preferences:
+                discussion_merged: 'যখন কেউ আমার একটি আলোচনাকে অন্যের সাথে মার্জ করে'
+        post:
+            merged: '{count, plural, one { {titles} থেকে <b>#</b> টি পোস্ট মার্জ করা হয়েছে।} other {{titles} থেকে <b>#</b> টি পোস্ট মার্জ করা হয়েছে।}}'
+    ref:
+        merge: মার্জ

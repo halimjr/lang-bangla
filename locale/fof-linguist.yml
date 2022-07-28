@@ -1,0 +1,9 @@
+fof-linguist:
+    admin:
+        buttons:
+            load-more: 'আরো দেখুন'
+            reset: 'মূল পুনরুদ্ধার করুন'
+        export:
+            output-loading: 'আউটপুট লোড হচ্ছে…'
+        filters:
+            search: 'অনুবাদ স্ট্রিং অনুসন্ধান করুন…'

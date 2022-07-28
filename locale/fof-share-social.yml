@@ -1,0 +1,19 @@
+fof-share-social:
+    forum:
+        discussion:
+            share_button: 'শেয়ার করুন'
+        modal:
+            title: 'নিচের মিডিয়াগুলোতে শেয়ার করুন'
+    lib:
+        networks:
+            facebook: ফেসবুক
+            linkedin: লিঙ্কডইন
+            my_mail: 'মাই ওয়ার্ল্ড'
+            odnoklassniki: ওডনোক্লাসনিকি
+            qq: কিউকিউ
+            qzone: কিউজোন
+            reddit: রেডডিট
+            telegram: টেলিগ্রাম
+            twitter: টুইটার
+            vkontakte: ভিকন্টাক্টে
+            whatsapp: হোয়াটসঅ্যাপ

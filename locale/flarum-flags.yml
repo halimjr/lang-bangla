@@ -1,0 +1,38 @@
+flarum-flags:
+    admin:
+        permissions:
+            flag_posts_label: 'ফ্ল্যাগ পোস্ট'
+            view_flags_label: 'ফ্ল্যাগ করা পোস্ট দেখুন'
+        settings:
+            flag_own_posts_label: 'ব্যবহারকারীদের তাদের নিজস্ব পোস্ট ফ্ল্যাগ করার অনুমতি দিন'
+            guidelines_url_label: 'কমিউনিটি গাইডলাইন URL'
+            title: 'ফ্ল্যাগ সেটিংস'
+    forum:
+        flag_post:
+            confirmation_message: 'এই পোস্ট ফ্ল্যাগ করার জন্য আপনাকে ধন্যবাদ। আমাদের মডারেটররা এটা দেখবেন।'
+            dismiss_button: 'ঠিক আছে'
+            reason_details_placeholder: 'অতিরিক্ত বিবরণ (ঐচ্ছিক)'
+            reason_inappropriate_label: অনুপযুক্ত
+            reason_inappropriate_text: 'এই পোস্টটি আপত্তিকর, অপমানজনক, অথবা আমাদের <a>কমিউনিটি গাইডলাইন</a> লঙ্ঘন করে।'
+            reason_missing_message: 'আমাদের মডারেটরদের জন্য কিছু বিবরণ প্রদান করুন।'
+            reason_off_topic_label: অফ-টপিক
+            reason_off_topic_text: 'এই পোস্টটি বর্তমান আলোচনার সাথে প্রাসঙ্গিক নয় এবং অন্যত্র সরানো উচিত।'
+            reason_other_label: 'অন্যান্য (উল্লেখ করুন)'
+            reason_spam_label: স্প্যাম
+            reason_spam_text: 'এই পোস্টটি একটি বিজ্ঞাপন।'
+            submit_button: 'ফ্ল্যাগ পোস্ট'
+            title: 'ফ্ল্যাগ পোস্ট'
+        flagged_posts:
+            empty_text: 'বর্তমানে কোনো ফ্ল্যাগ নেই'
+            item_text: '<em>{discussion}</em> এ {username}'
+            title: ফ্ল্যাগ
+            tooltip: 'ফ্ল্যাগ করা পোস্ট'
+        post_controls:
+            flag_button: ফ্ল্যাগ
+        post:
+            dismiss_flag_button: 'ফ্ল্যাগ খারিজ করুন'
+            flagged_by_text: '{username} দ্বারা ফ্ল্যাগ করা'
+            flagged_by_with_reason_text: '{username} দ্বারা {reason} হিসাবে ফ্ল্যাগ করা হয়েছে'
+    ref:
+        flag_post: 'ফ্ল্যাগ পোস্ট'
+        flagged_posts: 'ফ্ল্যাগ করা পোস্ট'

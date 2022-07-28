@@ -1,0 +1,51 @@
+validation:
+    accepted: ':attribute অবশ্যই একসেপ্ট করতে হবে।'
+    active_url: ':attribute একটি বৈধ URL নয়।'
+    after: ':attribute অবশ্যই :date এর পরে একটি তারিখ হতে হবে।'
+    after_or_equal: ':attribute অবশ্যই :date এর পরে বা তার সমান হতে হবে।'
+    alpha: ':attribute এ শুধুমাত্র ইংরেজি অক্ষর থাকতে পারে।'
+    alpha_dash: ':attribute এ শুধুমাত্র ইংরেজি অক্ষর, সংখ্যা, ড্যাশ এবং আন্ডারস্কোর থাকতে পারে।'
+    alpha_num: ':attribute এ শুধুমাত্র অক্ষর এবং সংখ্যা থাকতে পারে।'
+    array: ':attribute একটি অ্যারে হতে হবে।'
+    attributes:
+        content: কন্টেন্ট
+        email: ইমেইল
+        name_plural: 'বহুবচন নাম'
+        name_singular: 'একক নাম'
+        password: পাসওয়ার্ড
+        tag_count_primary: 'প্রাথমিক ট্যাগের সংখ্যা'
+        tag_count_secondary: 'সেকেন্ডারি ট্যাগের সংখ্যা'
+        title: শিরোনাম
+        username: ইউজারনেম
+    before: ':attribute অবশ্যই :date এর আগের একটি তারিখ হতে হবে।'
+    before_or_equal: ':attribute অবশ্যই :date এর আগে বা সমান একটি তারিখ হতে হবে।'
+    between:
+        array: ':attribute অবশ্যই সর্বনিম্ন :min থেকে সর্বোচ্চ :max আইটেমের মধ্যে হতে হবে।'
+        file: ':attribute অবশ্যই সর্বনিম্ন :min থেকে সর্বোচ্চ :max কিলোবাইটের মধ্যে হতে হবে।'
+        numeric: ':attribute অবশ্যই সর্বনিম্ন :min থেকে সর্বোচ্চ :max এর মধ্যে হতে হবে।'
+        string: ':attribute অবশ্যই সর্বনিম্ন :min থেকে সর্বোচ্চ :max অক্ষরের মধ্যে হতে হবে।'
+    boolean: ':attribute ক্ষেত্রটি অবশ্যই সত্য বা মিথ্যা হতে হবে।'
+    confirmed: ':attribute নিশ্চিতকরণ মিলছে না।'
+    date: ':attribute একটি বৈধ তারিখ নয়।'
+    date_equals: ':attribute অবশ্যই :date এর সমান একটি তারিখ হতে হবে।'
+    date_format: ':attribute :format ফরম্যাটের  মিলছে না।'
+    different: ':attribute এবং :other অবশ্যই আলাদা হতে হবে।'
+    digits: ':attribute অবশ্যই :digits সংখ্যা হতে হবে।'
+    digits_between: ':attribute অবশ্যই সর্বনিম্ন :min থেকে সর্বোচ্চ :max সংখ্যার মধ্যে হতে হবে।'
+    dimensions: ':attribute এ অবৈধ ইমেজ ডাইমেনশন আছে।'
+    email: ':attribute একটি বৈধ ইমেইল ঠিকানা হতে হবে।'
+    file_too_large: ':attribute অনেক বড়।'
+    file_upload_failed: ':attribute আপলোড করতে ব্যর্থ হয়েছে।'
+    max:
+        file: ':attribute অবশ্যই :max কিলোবাইট এর থেকে বেশি হওয়া যাবে না।'
+        numeric: ':attribute অবশ্যই :max এর থেকে বেশি হওয়া যাবে না।'
+        string: ':attribute অবশ্যই :max অক্ষরের চেয়ে বেশি হওয়া যাবে না।'
+    min:
+        file: ':attribute অবশ্যই কমপক্ষে :min কিলোবাইট হতে হবে।'
+        numeric: ':attribute অন্তত :min হতে হবে।'
+        string: ':attribute অন্তত :min অক্ষরের হতে হবে।'
+    password: 'পাসওয়ার্ডটি ভূল.'
+    required: ':attribute ক্ষেত্র আবশ্যক'
+    size:
+        numeric: ':attribute অবশ্যই :size হতে হবে।'
+    uploaded: ':attribute আপলোড করতে ব্যর্থ হয়েছে।'

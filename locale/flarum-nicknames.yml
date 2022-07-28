@@ -1,0 +1,17 @@
+flarum-nicknames:
+    api:
+        invalid_nickname_message: 'এই ডাকনামটি অবৈধ। ডাকনামের নিয়ম সম্পর্কে আরও তথ্যের জন্য অনুগ্রহ করে আপনার ফোরাম প্রশাসকের সাথে যোগাযোগ করুন।'
+    forum:
+        change_nickname:
+            submit_button: 'পরিবর্তন সংরক্ষণ করুন'
+            title: 'ডাকনাম পরিবর্তন করুন'
+        edit_user:
+            nicknames_heading: 'ডাকনাম পরিবর্তন করুন'
+            nicknames_text: ডাকনাম
+        settings:
+            change_nickname_button: 'ডাকনাম পরিবর্তন করুন'
+        sign_up:
+            nickname_placeholder: ডাকনাম
+    ref:
+        change_nickname: 'ডাকনাম পরিবর্তন'
+        nickname: ডাকনাম

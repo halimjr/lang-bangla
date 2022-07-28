@@ -1,0 +1,64 @@
+v17development-flarum-badges:
+    admin:
+        auto_moderator:
+            action_drivers:
+                badge_id: 'ব্যাজ আইডি'
+                give_badge: 'ব্যাজ দিন'
+                remove_badge: 'ব্যাজ সরান'
+            badge_selector:
+                loading_badges: 'ব্যাজ লোড হচ্ছে'
+                placeholder: 'একটি ব্যাজ নির্বাচন করুন'
+            metric_drivers:
+                badges_received: 'ব্যাজ প্রাপ্ত হয়েছে'
+            not_installed:
+                content: 'যখন <a>Auto Moderator</a> ইনস্টল এবং সক্রিয় করা হয় তখন এই এক্সটেনশনটি আরও কার্যকারিতা প্রদান করে। আপনি যখন এই এক্সটেনশনটি ইনস্টল করেন, তখন ব্যবহারকারীরা স্বয়ংক্রিয়ভাবে কোনো সম্প্রদায়ের কর্মচারীর হস্তক্ষেপ ছাড়াই ব্যাজ দিয়ে পুরস্কৃত হতে পারেন!'
+                dismiss: 'আবার দেখাবেন না'
+                install: 'ইনস্টল করুন'
+                title: 'ব্যবহারকারীদের স্বয়ংক্রিয়ভাবে ব্যাজ দিয়ে পুরস্কৃত করুন'
+            requirement_drivers:
+                has_badge: 'ব্যাজ রয়েছে'
+        badge_category:
+            blockview: ব্লক-ভিউ
+        badge:
+            background_color: 'পেছনের রঙ'
+            description: 'ব্যাজের বিবরণ'
+            icon: 'ব্যাজ আইকন'
+            icon_color: 'আইকনের রঙ'
+            image: 'ব্যাজ ছবির URL'
+            image_placeholder: 'ব্যাজ ইমেজ URL লিখুন'
+            is_image: 'ব্যাজ একটি ছবি'
+            is_image_description: 'ডিফল্ট ব্যাজের পরিবর্তে একটি ছবি ব্যবহার করুন'
+            label_color: 'লেখার রঙ'
+            name: 'ব্যাজের নাম'
+            visible: দৃশ্যমান
+            visible_description: 'এই ব্যাজ চালু করুন। অক্ষম করা হলে, ব্যাজটি দৃশ্যমান হবে না।'
+    forum:
+        badge_information: 'ব্যাজের তথ্য'
+        badge:
+            badge: ব্যাজ
+            badge_details: 'ব্যাজের বিবরণ'
+            badges: ব্যাজ
+            category: 'ব্যাজ ক্যাটাগরি'
+            description: 'ব্যাজের বিবরণ'
+            earned_by_count: '{count, plural, one {<b># জন ব্যবহারকারী</b> অর্জন করেছেন} other {<b># জন ব্যবহারকারী</b> অর্জন করেছেন}}'
+            earned_count: '{count, plural, one {<b># জন ব্যবহারকারী</b> এই ব্যাজ অর্জন করেছেন} other {<b># জন ব্যবহারকারী</b> এই ব্যাজ অর্জন করেছেন}}'
+            earned_on: 'ব্যাজ অর্জিত হয়েছে'
+            earning_reason: 'ব্যাজ অর্জনের কারণ'
+            name: 'ব্যাজের নাম'
+            no_earning_reason: 'কোন কারণ দেয়া হয়নি '
+            received_on: '{date} এ প্রাপ্ত'
+            update_earning_reason: 'উপার্জনের কারণ আপডেট করুন'
+        give_badge: 'ব্যাজ দিন'
+        moderation:
+            give_badge: 'ব্যাজ দিন'
+            remove_badge: 'ব্যবহারকারী থেকে ব্যাজ সরান'
+            remove_badge_confirm: 'আপনি কি এই ব্যবহারকারীর কাছ থেকে এই ব্যাজটি সরানোর বিষয়ে নিশ্চিত?'
+        no_received: 'কোনো ব্যবহারকারী এই ব্যাজ অর্জন করেননি।'
+        notification:
+            settings: 'যদি আমি কোন ব্যাজ পাই'
+            title: 'আপনি একটি নতুন ব্যাজ পেয়েছেন'
+        select_badge: 'ব্যাজ নির্বাচন করুন'
+        uncategorized: 'শ্রেণী বহির্ভূত'
+        update_badge: 'ব্যাজ আপডেট করুন'
+        user_has_badge: 'ব্যবহারকারীর কাছে ইতিমধ্যেই এই ব্যাজ রয়েছে।'
+        user_no_badges: 'এই ব্যবহারকারীর এখনো কোনো ব্যাজ নেই'

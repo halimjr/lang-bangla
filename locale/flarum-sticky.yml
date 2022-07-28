@@ -1,0 +1,15 @@
+flarum-sticky:
+    admin:
+        permissions:
+            sticky_discussions_label: 'স্টিকি আলোচনা'
+    forum:
+        badge:
+            sticky_tooltip: স্টিকি
+        discussion_controls:
+            sticky_button: স্টিকি
+            unsticky_button: আনস্টিকি
+        post_stream:
+            discussion_stickied_text: '{username} আলোচনা স্টিকি করেছেন।'
+            discussion_unstickied_text: '{username} আলোচনা আনস্টিকি করেছেন।'
+    ref:
+        sticky: স্টিকি

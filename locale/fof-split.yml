@@ -1,0 +1,12 @@
+fof-split:
+    forum:
+        modal:
+            new_discussion_label: 'নতুন আলোচনার জন্য শিরোনাম উল্লেখ করুন'
+            submit_button: স্প্লিট
+            title: 'আলোচনা স্প্লিট করুন'
+        post:
+            was_split_from: '{count, plural, one {<b>{count}</b> টি পোস্ট {target} থেকে স্প্লিট করা হয়েছে।} other {<b>{count}</b> টি পোস্ট {target} থেকে স্প্লিট করা হয়েছে।}}'
+            was_split_to: '{count, plural, one {<b>{count}</b> টি পোস্ট {target} এ স্প্লিট করা হয়েছে।} other {<b>{count}</b> টি পোস্ট {target} এ স্প্লিট করা হয়েছে।}}'
+        split:
+            from: 'এখান হতে স্প্লিট করুন'
+            to: 'এখানে স্প্লিট করুন'

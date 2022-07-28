@@ -1,0 +1,26 @@
+askvortsov-pwa:
+    forum:
+        alerts:
+            optin: 'আপনি একাউন্টে পুশ নোটিফিকেশন চালু করেছেন, কিন্তু এই ডিভাইসটিতে পুশ নোটিফিকেশন চালু করেননি।'
+            optin_button: 'চালু করুন'
+        discussion_controls:
+            share_button: 'শেয়ার করুন'
+        post_controls:
+            share_api:
+                title: '{username} এর পোস্ট "{title}" আলোচনায়'
+            share_button: 'শেয়ার করুন'
+        settings:
+            push_header: পুশ
+            pwa_notifications:
+                access_default: 'ব্রাউজারের সীমাবদ্ধতার কারণে, আপনাকে এই ডিভাইসে পুশ নোটিফিকেশন পেতে অপ্ট-ইন করতে হবে।'
+                access_default_button: 'অপ্ট-ইন করুন'
+                access_denied: 'এই ডিভাইসে পুশ নোটিফিকেশন পেতে আপনাকে অবশ্যই আপনার ব্রাউজারের সেটিংস সমন্বয় করতে হবে।'
+                access_denied_button: 'জানুন কিভাবে'
+                no_browser_support: 'এই ব্রাউজারটি প্রগ্রেসিভ ওয়েব অ্যাপের জন্য পুশ নোটিফিকেশন সমর্থন করে না।'
+                no_browser_support_button: 'আরও জানুন'
+        user_controls:
+            share_button: 'শেয়ার করুন'
+    views:
+        offline:
+            header: 'নেটওয়ার্ক সংযোগে ত্রুটি'
+            text: 'এই অ্যাপটির জন্য একটি সচল নেটওয়ার্ক সংযোগ প্রয়োজন; তাই এটি অফলাইনে ব্যবহার করা যাবে না। অনুগ্রহ করে আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন।'

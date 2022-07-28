@@ -1,0 +1,33 @@
+fof-oauth:
+    forum:
+        error:
+            bad_verification_code: 'অবৈধ বা মেয়াদোত্তীর্ণ যাচাইকরণ টোকেন। অনুগ্রহ করে আবার চেষ্টা করুন।'
+            invalid_state: 'অবৈধ অবস্থা। অনুগ্রহ করে আবার চেষ্টা করুন।'
+        log_in:
+            with_button: '{provider} এর মাধ্যমে লগ ইন করুন'
+            with_discord_button: '{provider} এর মাধ্যমে লগ ইন করুন'
+            with_facebook_button: '{provider} এর মাধ্যমে লগ ইন করুন'
+            with_github_button: '{provider} এর মাধ্যমে লগ ইন করুন'
+            with_gitlab_button: '{provider} এর মাধ্যমে লগ ইন করুন'
+            with_google_button: '{provider} এর মাধ্যমে লগ ইন করুন'
+            with_linkedin_button: '{provider} এর মাধ্যমে লগ ইন করুন'
+            with_twitter_button: '{provider} এর মাধ্যমে লগ ইন করুন'
+        providers:
+            discord: ডিসকর্ড
+            facebook: ফেসবুক
+            github: গিটহাব
+            gitlab: গিটল্যাব
+            google: গুগল
+            linkedin: লিঙ্কডইন
+            twitter: টুইটার
+        signup:
+            username_help: 'এখানে পরিচিত হতে একটি ইউজারনেম চয়ন করুন'
+    lib:
+        providers:
+            discord: ডিসকর্ড
+            facebook: ফেসবুক
+            github: গিটহাব
+            gitlab: গিটল্যাব
+            google: গুগল
+            linkedin: লিঙ্কডইন
+            twitter: টুইটার

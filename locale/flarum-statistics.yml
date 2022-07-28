@@ -1,0 +1,4 @@
+flarum-statistics:
+    admin:
+        statistics:
+            last_12_months_label: 'শেষ ১২ মাস'

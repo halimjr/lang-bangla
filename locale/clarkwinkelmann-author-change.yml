@@ -1,0 +1,23 @@
+clarkwinkelmann-author-change:
+    admin:
+        permissions:
+            edit-date: 'আলোচনা এবং পোস্টের তারিখ আপডেট'
+            edit-user: 'আলোচনা এবং পোস্ট লেখক আপডেট'
+    forum:
+        controls:
+            edit: 'লেখক/তারিখ সম্পাদনা'
+        modal:
+            cancel: 'বাতিল করুন'
+            created_at: সময়
+            edited_at: 'সময় সম্পাদনা করুন'
+            submit: 'সংরক্ষণ করুন'
+            sync-impossible: 'প্রথম পোস্ট খুঁজে পাওয়া যাচ্ছে না, আলোচনার শুরুতে স্ক্রোল করার চেষ্টা করুন।'
+            sync-with-discussion: 'আলোচনার সাথে সমন্বয় করুন'
+            sync-with-post: 'প্রথম পোস্টের সাথে সমন্বয় করুন'
+            title-discussion: 'আলোচনার লেখক ও তারিখ সম্পাদনা করুন'
+            title-post: 'পোস্ট লেখক এবং তারিখ সম্পাদনা করুন'
+            user: লেখক
+        search:
+            no-results: 'কোন ফলাফল নেই'
+            placeholder: 'ব্যবহারকারীদের অনুসন্ধান করুন'
+            type-more: 'ডাটাবেস অনুসন্ধান করতে ৩ অক্ষর টাইপ করুন'

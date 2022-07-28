@@ -1,0 +1,36 @@
+flarum-suspend:
+    admin:
+        permissions:
+            suspend_users_label: 'ব্যবহারকারীদের সাসপেন্ড করা'
+    email:
+        suspended:
+            body: "আরে {recipient_display_name},\n\nনিম্নলিখিত কারণে আপনাকে সাসপেন্ড করা হয়েছে:\n\n---\n{suspension_message}\n---\n"
+            subject: 'আপনার অ্যাকাউন্ট সাসপেন্ড করা হয়েছে'
+        unsuspended:
+            body: "আরে {recipient_display_name},\n\nআপনার সাসপেন্ড তুলে নেয়া হয়েছে। আপনি নিম্নলিখিত লিঙ্কে ক্লিক করে ফোরামে ফিরে যেতে পারেন:\n{forum_url}\n"
+            subject: 'আপনার অ্যাকাউন্টের সাসপেনশন অপসারিত হয়েছে'
+    forum:
+        notifications:
+            user_suspended_indefinite_text: 'আপনাকে অনির্দিষ্টকালের জন্য সাসপেন্ড করা হয়েছে'
+            user_suspended_text: 'আপনাকে {timeReadable} এর জন্য সাসপেন্ড করা হয়েছে'
+            user_unsuspended_text: 'আপনার সাসপেন্ড শেষ হয়েছে'
+        suspend_user:
+            display_message: 'ব্যবহারকারীর জন্য বার্তা'
+            indefinitely_label: 'অনির্দিষ্টকালের জন্য সাসপেন্ড'
+            limited_time_days_text: দিন
+            limited_time_label: 'সীমিত সময়ের জন্য সাসপেন্ড…'
+            not_suspended_label: 'সাসপেন্ড করা নেই'
+            placeholder_optional: ঐচ্ছিক
+            reason: 'সাসপেনশনের কারণ'
+            status_heading: 'সাসপেনশন স্ট্যাটাস'
+            submit_button: 'পরিবর্তন সংরক্ষণ করুন'
+            title: 'সাসপেন্ড {username}'
+        suspension_info:
+            dismiss_button: খারিজ
+            indefinite: 'এটি একটি অনির্দিষ্টকালের সাসপেনশন'
+            limited: 'এই সাসপেনশন {date} পর্যন্ত বলবৎ থাকবে'
+            title: 'এই অ্যাকাউন্ট স্থগিত করা হয়েছে'
+        user_badge:
+            suspended_tooltip: সাসপেন্ডেড
+        user_controls:
+            suspend_button: সাসপেন্ড

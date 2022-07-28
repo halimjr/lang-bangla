@@ -1,0 +1,370 @@
+core:
+    admin:
+        basics:
+            all_discussions_label: 'সমস্ত আলোচনা'
+        edit_css:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        edit_group:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        edit_header:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        email:
+            mail_password_label: পাসওয়ার্ড
+            mail_username_label: ইউজারনেম
+        header:
+            log_out_button: 'লগ আউট'
+        loading:
+            title: 'অনুগ্রহপূর্বক অপেক্ষা করুন…'
+        nav:
+            search_placeholder: 'এক্সটেনশন অনুসন্ধান করুন'
+        permissions:
+            edit_users_credentials_label: 'ব্যবহারকারীর ক্রেডেনশিয়ালস সম্পাদনা করুন'
+            edit_users_groups_label: 'ব্যবহারকারীর গ্রুপ সম্পাদনা করুন'
+            edit_users_label: 'ব্যবহারকারীর এট্রিবিউট সম্পাদনা করুন'
+            rename_discussions_label: 'আলোচনার নাম পরিবর্তন করুন'
+            search_users_label: 'ব্যবহারকারীদের অনুসন্ধান করুন'
+            sign_up_label: 'সাইন আপ'
+            start_discussions_label: 'একটি আলোচনা শুরু করুন'
+            view_hidden_groups_label: 'লুকানো গ্রুপ ব্যাজ দেখুন'
+        settings:
+            submit_button: 'পরিবর্তনসমূহ সংরক্ষণ করুন'
+        upload_image:
+            remove_button: সরান
+        users:
+            grid:
+                columns:
+                    edit_user:
+                        title: 'ব্যবহারকারী সম্পাদনা করুন'
+                        tooltip: '{username} সম্পাদনা করুন'
+                    group_badges:
+                        no_badges: 'কোনোটিই নয়'
+                        title: গ্রুপ
+                    join_time:
+                        title: 'যোগদান করেছেন'
+                    username:
+                        profile_link_tooltip: '{username} এর প্রোফাইলে যান'
+                        title: ইউজারনেম
+    api:
+        invalid_username_message: 'ইউজারনেমে শুধুমাত্র ইংরেজি অক্ষর, সংখ্যা এবং ড্যাশ থাকতে পারে।'
+    email:
+        activate_account:
+            body: "আরে {username}!\n\nকেউ (আশা করি আপনি!) এই ইমেইল ঠিকানা দিয়ে \"{forum}\" এ সাইন আপ করেছেন।\n\nযদি এটি আপনি হয়ে থাকেন তবে নিচের লিঙ্কে ক্লিক করুন এবং আপনার অ্যাকাউন্ট সক্রিয় হয়ে যাবে:\n{url}\n\nআপনি সাইন আপ না করে থাকলে, এই ইমেইলটি উপেক্ষা করুন।"
+            subject: 'আপনার নতুন অ্যাকাউন্ট সক্রিয় করুন'
+        confirm_email:
+            body: "আরে {username}!\n\nকেউ (আশা করি আপনি!) \"{forum}\" এ তাদের ইমেইল ঠিকানা এটিতে পরিবর্তন করেছেন।\n\nযদি এটি আপনি হয়ে থাকেন তবে নিচের লিঙ্কে ক্লিক করুন এবং আপনার ইমেইল নিশ্চিত করা হবে:\n{url}\n\nএটি আপনি না হলে, এই ইমেইল উপেক্ষা করুন।"
+            subject: 'আপনার নতুন ইমেইল ঠিকানা নিশ্চিত করুন'
+        reset_password:
+            body: "আরে {username}!\n\nকেউ (আশা করি আপনি!) \"{forum}\" এ আপনার অ্যাকাউন্টের জন্য একটি ভুলে যাওয়া পাসওয়ার্ড পুনুরুদ্ধার করার অনুরোধ জমা দিয়েছেন।\n\nএটি আপনি হলে, আপনার পাসওয়ার্ড পুনরায় সেট করতে নিম্নলিখিত লিঙ্কে ক্লিক করুন:\n{url}\n\nআপনি যদি আপনার পাসওয়ার্ড পরিবর্তন করতে না চান তবে এই ইমেইলটি উপেক্ষা করুন তাহলে বর্তমান পাসওয়ার্ড পরিবর্তন হবে না।"
+            subject: 'আপনার পাসওয়ার্ড পুনরায় সেট করুন'
+    forum:
+        change_email:
+            confirm_password_placeholder: 'পাসওয়ার্ড নিশ্চিত করুন'
+            confirmation_message: 'আমরা {email} এ একটি নিশ্চিতকরণ ইমেইল পাঠিয়েছি। যদি এটি শীঘ্রই না আসে, আপনার স্প্যাম ফোল্ডার চেক করুন।'
+            dismiss_button: 'ঠিক আছে'
+            incorrect_password_message: 'আপনার দেওয়া পাসওয়ার্ডটি ভুল।'
+            submit_button: 'পরিবর্তন সংরক্ষণ করুন'
+            title: 'ইমেইল পরিবর্তন করুন'
+        change_password:
+            send_button: 'পাসওয়ার্ড রিসেট ইমেইল পাঠান'
+            text: 'নীচের বোতামে ক্লিক করুন এবং আপনার পাসওয়ার্ড পরিবর্তন করার জন্য একটি লিঙ্কের জন্য আপনার ইমেইল চেক করুন।'
+            title: 'পাসওয়ার্ড পরিবর্তন করুন'
+        composer_discussion:
+            body_placeholder: 'পোস্ট লিখুন…'
+            discard_confirmation: 'আপনি আপনার আলোচনা পোস্টটি করেননি। আপনি কি এটি বাতিল করতে চান?'
+            submit_button: 'আলোচনা পোস্ট করুন'
+            title: 'আলোচনা শুরু করুন'
+            title_placeholder: 'আলোচনার শিরোনাম'
+        composer_edit:
+            discard_confirmation: 'আপনি আপনার পরিবর্তনগুলি সংরক্ষণ করেননি। আপনি কি সেগুলিকে বাতিল করতে চান?'
+            edited_message: 'আপনার সম্পাদনা করা সম্পূর্ণ হয়েছে।'
+            post_link: '{discussion} এ পোস্ট #{number}'
+            submit_button: 'পরিবর্তন সংরক্ষণ করুন'
+            view_button: দেখুন
+        composer_reply:
+            body_placeholder: 'প্রতিউত্তর লিখুন…'
+            discard_confirmation: 'আপনি আপনার উত্তর পোস্ট করেননি। আপনি কি এটি বাতিল করতে চান?'
+            posted_message: 'আপনার উত্তর পোস্ট করা হয়েছে।'
+            submit_button: 'উত্তর দিন'
+            view_button: দেখুন
+        composer:
+            close_tooltip: 'বন্ধ করুন'
+            exit_full_screen_tooltip: 'পূর্ণ পর্দা সরান'
+            full_screen_tooltip: 'পূর্ণ পর্দা'
+            minimize_tooltip: 'ছোট করুন'
+            preview_tooltip: প্রিভিউ
+        discussion_controls:
+            cannot_reply_button: 'উত্তর দেয়া যাচ্ছে না'
+            cannot_reply_text: 'আপনার এই আলোচনার উত্তর দেওয়ার অনুমতি নেই।'
+            delete_button: মুছুন
+            delete_confirmation: 'আপনি কি এই আলোচনা মুছে ফেলার বিষয়ে নিশ্চিত?'
+            delete_forever_button: 'চিরতরে মুছুন'
+            log_in_to_reply_button: 'উত্তর দিতে লগ ইন করুন'
+            rename_button: 'নাম পরিবর্তন করুন'
+            reply_button: 'উত্তর দিন'
+            restore_button: পুনরুদ্ধার
+            toggle_dropdown_accessible_label: 'আলোচনা অ্যাকশন ড্রপডাউন মেনু টগল করুন'
+        discussion_list:
+            empty_text: 'মনে হচ্ছে এখানে কোনো আলোচনা নেই'
+            load_more_button: 'আরো দেখুন'
+            mark_as_read_tooltip: 'পঠিত হিসেবে চিহ্নিত করুন'
+            replied_text: '{username} {ago} উত্তর দিয়েছেন'
+            started_text: '{username} {ago} শুরু করেছেন'
+            total_replies_a11y_label: '{count, plural, one {# উত্তর} other {# উত্তর}}'
+            unread_replies_a11y_label: '{count, plural, one {# অপঠিত উত্তর} other {# অপঠিত উত্তর}}. অপঠিত {count, plural, one {উত্তর} other {উত্তর}} পঠিত হিসাবে চিহ্নিত করুন।'
+        forgot_password:
+            dismiss_button: 'ঠিক আছে'
+            email_placeholder: ইমেইল
+            email_sent_message: 'আমরা আপনাকে পাসওয়ার্ড রিসেট করার জন্য একটি লিঙ্ক সহ ইমেইল পাঠিয়েছি। এক বা দুই মিনিটের মধ্যে ইমেইল না পেলে আপনার স্প্যাম ফোল্ডারটি চেক করুন।'
+            not_found_message: 'এই ইমেইল ঠিকানায় নিবন্ধিত কোনো ব্যবহারকারী নেই'
+            submit_button: 'পাসওয়ার্ড পুনরুদ্ধার'
+            text: 'আপনার ইমেইল ঠিকানা লিখুন এবং আমরা আপনার পাসওয়ার্ড পুনরায় সেট করার জন্য আপনাকে একটি লিঙ্ক পাঠাব।'
+            title: 'পাসওয়ার্ড ভুলে গেছেন'
+        header:
+            admin_button: প্রশাসন
+            back_to_index_tooltip: 'আলোচনার তালিকায় ফিরে যান'
+            locale_dropdown_accessible_label: 'ফোরাম লোকেল পরিবর্তন করুন'
+            log_in_link: 'লগ ইন'
+            log_out_button: 'লগ আউট'
+            profile_button: প্রোফাইল
+            search_clear_button_accessible_label: 'অনুসন্ধান ক্যোয়ারী সাফ করুন'
+            search_placeholder: 'ফোরাম অনুসন্ধান করুন'
+            search_role_label: 'ফোরাম অনুসন্ধান করুন'
+            session_dropdown_accessible_label: 'সেশন অপশন ড্রপডাউন মেনু টগল করুন'
+            settings_button: সেটিংস
+            sign_up_link: 'সাইন আপ'
+        index_sort:
+            latest_button: সর্বশেষ
+            newest_button: 'সবথেকে নতুন'
+            oldest_button: 'সবচেয়ে পুরনো'
+            relevance_button: প্রাসঙ্গিক
+            toggle_dropdown_accessible_label: 'আলোচনার তালিকা বাছাই পরিবর্তন করুন'
+            top_button: শীর্ষ
+        index:
+            all_discussions_link: 'সমস্ত আলোচনা'
+            cannot_start_discussion_button: 'আলোচনা শুরু করা যাচ্ছে না'
+            mark_all_as_read_confirmation: 'আপনি কি সমস্ত আলোচনা পঠিত হিসাবে চিহ্নিত করার বিষয়ে নিশ্চিত?'
+            mark_all_as_read_tooltip: 'সমস্ত পঠিত হিসাবে চিহ্নিত করুন'
+            meta_title_text: 'সমস্ত আলোচনা'
+            refresh_tooltip: রিফ্রেশ
+            start_discussion_button: 'আলোচনা শুরু করুন'
+            toggle_sidenav_dropdown_accessible_label: 'নেভিগেশন ড্রপডাউন মেনু টগল করুন'
+        log_in:
+            forgot_password_link: 'পাসওয়ার্ড ভুলে গেছেন?'
+            invalid_login_message: 'আপনার লগইন বিবরণ ভুল ছিল।'
+            password_placeholder: পাসওয়ার্ড
+            remember_me_label: 'আমাকে মনে রাখুন'
+            sign_up_text: 'কোন অ্যাকাউন্ট নেই? <a>সাইন আপ করুন</a>'
+            submit_button: 'লগ ইন'
+            title: 'লগ ইন'
+            username_or_email_placeholder: 'ইউজারনেম বা ইমেইল'
+        notifications:
+            discussion_renamed_text: '{username} শিরোনাম পরিবর্তন করেছেন'
+            empty_text: 'নোটিফিকেশন নেই'
+            mark_all_as_read_tooltip: 'সমস্ত পঠিত হিসাবে চিহ্নিত করুন'
+            mark_as_read_tooltip: 'পঠিত হিসেবে চিহ্নিত করুন'
+            title: নোটিফিকেশন
+            toggle_dropdown_accessible_label: 'নোটিফিকেশনগুলি দেখুন'
+            tooltip: নোটিফিকেশন
+        post_controls:
+            delete_button: মুছুন
+            delete_confirmation: 'আপনি কি এই পোস্টটি চিরতরে মুছে দেওয়ার বিষয়ে নিশ্চিত? এই ক্রিয়াটি পূর্বাবস্থায় ফেরানো যাবে না।'
+            delete_forever_button: 'চিরতরে মুছুন'
+            edit_button: 'সম্পাদনা করুন'
+            hide_confirmation: 'আপনি কি এই পোস্টটি মুছে দেওয়ার বিষয়ে নিশ্চিত?'
+            restore_button: 'পুনরুদ্ধার করুন'
+            toggle_dropdown_accessible_label: 'পোস্ট কন্ট্রোল ড্রপডাউন মেনু টগল করুন'
+        post_scrubber:
+            now_link: এখন
+            original_post_link: 'মূল পোস্ট'
+            unread_text: '{count} অপঠিত উত্তর'
+            viewing_text: '{count, plural, one {একমাত্র পোস্ট} other {{index}/{formattedCount} পোস্ট}}'
+        post_stream:
+            discussion_renamed_old_tooltip: 'পুরানো শিরোনাম ছিল: "{old}"'
+            discussion_renamed_text: '{username} শিরোনাম পরিবর্তন করে {new} করেছেন।'
+            load_more_button: 'আরো দেখুন'
+            reply_placeholder: 'উত্তর লিখুন…'
+            time_lapsed_text: '{period} পরে'
+        post:
+            edited_text: সম্পাদিত
+            edited_tooltip: '{ago} {username} সম্পাদন করেছেন'
+            number_tooltip: 'পোস্ট #{number}'
+        rename_discussion:
+            submit_button: 'নাম পরিবর্তন করুন'
+            title: 'আলোচনার নাম পরিবর্তন করুন'
+        search:
+            all_discussions_button: '"{query}" এর জন্য সমস্ত আলোচনা খুঁজুন'
+            discussions_heading: আলোচনা
+            users_heading: ব্যবহারকারী
+        settings:
+            account_heading: অ্যাকাউন্ট
+            change_email_button: 'ইমেইল পরিবর্তন করুন'
+            change_password_button: 'পাসওয়ার্ড পরিবর্তন করুন'
+            notifications_heading: নোটিফিকেশন
+            notify_by_email_heading: ইমেইল
+            notify_by_web_heading: ওয়েব
+            notify_discussion_renamed_label: 'যখন কেউ আমার শুরু করা আলোচনার নাম পরিবর্তন করে'
+            privacy_disclose_online_label: 'আমি যখন অনলাইন থাকি তখন অন্যদের দেখতে দিন'
+            privacy_heading: গোপনীয়তা
+            title: সেটিংস
+        sign_up:
+            dismiss_button: 'ঠিক আছে'
+            email_placeholder: ইমেইল
+            log_in_text: 'ইতিমধ্যে একটি অ্যাকাউন্ট আছে? <a>লগ ইন করুন</a>'
+            password_placeholder: পাসওয়ার্ড
+            submit_button: 'সাইন আপ'
+            title: 'সাইন আপ'
+            username_placeholder: ইউজারনেম
+            welcome_text: 'স্বাগতম, {username}!'
+        user_controls:
+            button: কন্ট্রোল
+            delete_button: মুছুন
+            delete_confirmation: 'আপনি কি নিশ্চিত যে আপনি এই ব্যবহারকারীকে মুছে ফেলতে চান? ব্যবহারকারীর পোস্টগুলি মুছে ফেলা হবে না।'
+            delete_error_message: 'ব্যবহারকারী <i>{username} ({email})</i> মুছে ফেলা ব্যর্থ হয়েছে।'
+            delete_success_message: 'ব্যবহারকারী <i>{username} ({email})</i> মুছে ফেলা হয়েছে'
+            edit_button: 'সম্পাদনা করুন'
+            toggle_dropdown_accessible_label: 'ব্যবহারকারী নিয়ন্ত্রণ ড্রপডাউন মেনু টগল করুন'
+        user_email_confirmation:
+            alert_message: 'আমরা {email} এ একটি নিশ্চিতকরণ ইমেইল পাঠিয়েছি। যদি এটি শীঘ্রই না আসে তবে আপনার স্প্যাম ফোল্ডারটি পরীক্ষা করুন।'
+            resend_button: 'নিশ্চিতকরণ ইমেইল পুনরায় পাঠান'
+            sent_message: 'পাঠানো হয়েছে'
+        user:
+            avatar_remove_button: সরান
+            avatar_upload_button: 'আপলোড করুন'
+            avatar_upload_tooltip: 'একটি নতুন অবতার আপলোড করুন'
+            discussions_link: আলোচনা
+            in_discussion_text: '"{discussion}" আলোচনায়'
+            joined_date_text: '{ago} যোগ দিয়েছেন'
+            online_text: অনলাইন
+            posts_empty_text: 'দেখে মনে হচ্ছে এখানে কোনো পোস্ট নেই'
+            posts_link: পোস্ট
+            posts_load_more_button: 'আরো দেখুন'
+            settings_link: সেটিংস
+        welcome_hero:
+            hide: 'স্বাগতম বার্তা লুকান'
+    group:
+        admin: অ্যাডমিন
+        admins: অ্যাডমিন
+        guest: গেস্ট
+        guests: গেস্ট
+        member: মেম্বার
+        members: মেম্বার
+        mod: মডারেটর
+        mods: মডারেটর
+    lib:
+        alert:
+            dismiss_a11y_label: 'সতর্কতা খারিজ করুন'
+        badge:
+            hidden_tooltip: গোপন
+        debug_button: Debug
+        dropdown:
+            toggle_dropdown_accessible_label: 'ড্রপডাউন মেনু টগল করুন'
+        edit_user:
+            activate_button: 'ব্যবহারকারী সক্রিয় করুন'
+            email_heading: ইমেইল
+            email_label: ইমেইল
+            groups_heading: গ্রুপ
+            nothing_available: 'আপনি এই ব্যবহারকারীকে সম্পাদনা করতে পারবেন না।'
+            password_heading: পাসওয়ার্ড
+            password_label: পাসওয়ার্ড
+            set_password_label: 'নতুন পাসওয়ার্ড সেট করুন'
+            submit_button: 'পরিবর্তন সংরক্ষণ করুন'
+            title: 'ব্যবহারকারী সম্পাদনা করুন'
+            username_heading: ইউজারনেম
+            username_label: ইউজারনেম
+        error:
+            generic_message: 'উফ! কিছু ভুল হয়েছে। পৃষ্ঠাটি পুনরায় লোড করে আবার চেষ্টা করুন।'
+            not_found_message: 'অনুরোধ করা রিসোর্স খুঁজে পাওয়া যায়নি'
+            payload_too_large_message: 'রিকোয়েস্ট পেলোড অনেক বড় ছিল'
+            permission_denied_message: 'আপনার এটি করার অনুমতি নেই'
+            rate_limit_exceeded_message: 'আপনি একটু তাড়াতাড়ি যাচ্ছেন। অনুগ্রহ করে কয়েক সেকেন্ডের মধ্যে আবার চেষ্টা করুন।'
+            render_failed_message: 'দুঃখিত, এই বিষয়বস্তু প্রদর্শন করার সময় আমরা একটি ত্রুটির সম্মুখীন হয়েছি। আপনি যদি একজন ব্যবহারকারী হন, অনুগ্রহ করে পরে আবার চেষ্টা করুন। আপনি যদি একজন প্রশাসক হন, আরও তথ্যের জন্য আপনার লগ ফাইলগুলি দেখুন।'
+        loading_indicator:
+            accessible_label: 'লোড হচ্ছে…'
+        meta_titles:
+            with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: পৃষ্ঠা # - {forumName}}}'
+            without_page_title: '{pageNumber, plural, =1 {{forumName}} other {পৃষ্ঠা # - {forumName}}}'
+        modal:
+            close: বন্ধ
+        nav:
+            drawer_button: 'নেভিগেশন ড্রয়ার খুলুন'
+        series:
+            three_text: '{first}, {second}, এবং {third}'
+            two_text: '{first} এবং {second}'
+        username:
+            deleted_text: '[মুছে ফেলা হয়েছে]'
+    ref:
+        all_discussions: 'সমস্ত আলোচনা'
+        change_email: 'ইমেইল পরিবর্তন'
+        change_password: 'পাসওয়ার্ড পরিবর্তন করুন'
+        color: রং
+        confirm_email: 'ইমেইল নিশ্চিত করুন'
+        confirm_password: 'পাসওয়ার্ড নিশ্চিত করুন'
+        confirmation_email_sent: 'আমরা {email} এ একটি নিশ্চিতকরণ ইমেইল পাঠিয়েছি। যদি এটি শীঘ্রই না আসে, তবে আপনার স্প্যাম ফোল্ডার চেক করুন।'
+        delete: মুছুন
+        delete_forever: 'চিরতরে মুছুন'
+        discussions: আলোচনা
+        edit: সম্পাদনা
+        edit_user: 'ব্যবহারকারী সম্পাদনা করুন'
+        email: ইমেইল
+        icon: আইকন
+        load_more: 'আরো দেখুন'
+        loading: 'লোড হচ্ছে…'
+        log_in: 'লগ ইন'
+        log_out: 'লগ আউট'
+        mark_all_as_read: 'সমস্ত পঠিত হিসাবে চিহ্নিত করুন'
+        next_page: 'পরবর্তী পৃষ্ঠা'
+        notifications: নোটিফিকেশন
+        okay: 'ঠিক আছে'
+        password: পাসওয়ার্ড
+        posts: পোস্ট
+        previous_page: 'পূর্ববর্তী পৃষ্ঠা'
+        remove: সরান
+        rename: 'নাম পরিবর্তন '
+        reply: উত্তর
+        reset_your_password: 'আপনার পাসওয়ার্ড পুনরায় সেট করুন'
+        restore: পুনরুদ্ধার
+        save_changes: 'পরিবর্তন সংরক্ষণ করুন'
+        settings: সেটিংস
+        sign_up: 'সাইন আপ'
+        start_a_discussion: 'আলোচনা শুরু করুন'
+        username: ইউজারনেম
+        users: ব্যবহারকারী
+        view: দেখুন
+        write_a_reply: 'উত্তর লিখুন…'
+        you: আপনি
+    views:
+        admin:
+            title: প্রশাসন
+        confirm_email:
+            submit_button: 'ইমেইল নিশ্চিত করুন'
+            text: 'আপনার অ্যাকাউন্টের ইমেইল নিশ্চিত করতে নীচের বোতামে ক্লিক করুন।'
+            title: 'ইমেইল নিশ্চিত করুন'
+        content:
+            javascript_disabled_message: 'এই সাইটটি জাভাস্ক্রিপ্ট সক্ষম আধুনিক ব্রাউজারে সবচেয়ে ভাল দেখা যায়।'
+            load_error_message: 'এই সাইটের সম্পূর্ণ সংস্করণ লোড করার সময় কিছু ভুল হয়েছে। ত্রুটিটি ঠিক করতে এই পৃষ্ঠাটিকে হার্ড-রিফ্রেশ করার চেষ্টা করুন।'
+            loading_text: 'লোড হচ্ছে…'
+        discussion:
+            next_page_button: 'পরবর্তী পৃষ্ঠা'
+            previous_page_button: 'পূর্ববর্তী পৃষ্ঠা'
+        error:
+            csrf_token_mismatch: 'আপনি অনেক সময় ধরে নিষ্ক্রিয় ছিলেন।'
+            csrf_token_mismatch_return_link: 'আবার চেষ্টা করতে ফিরে যান'
+            invalid_confirmation_token: 'এই নিশ্চিতকরণ লিঙ্কটি ইতিমধ্যেই ব্যবহার করা হয়েছে বা এটি অবৈধ।'
+            not_authenticated: 'এই পেইজে আপনার প্রবেশাধিকার নেই। লগ ইন করার পর আবার চেষ্টা করুন।'
+            not_found: 'আপনার অনুরোধ করা পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।'
+            not_found_return_link: '{forum} এ ফিরে যান'
+            permission_denied: 'এই পেইজে আপনার প্রবেশাধিকার নেই।'
+            unknown: 'এই পৃষ্ঠাটি লোড করার চেষ্টা করার সময় একটি ত্রুটি ঘটেছে।'
+        index:
+            all_discussions_heading: 'সমস্ত আলোচনা'
+            next_page_button: 'পরবর্তী পৃষ্ঠা'
+            previous_page_button: 'পূর্বের পৃষ্ঠা'
+        log_out:
+            log_out_button: 'লগ আউট'
+            log_out_confirmation: 'আপনি কি {forum} থেকে লগ আউট করার বিষয়ে নিশ্চিত?'
+            title: 'লগ আউট'
+        reset_password:
+            confirm_password_label: 'নতুন পাসওয়ার্ড নিশ্চিত করুন'
+            new_password_label: 'নতুন পাসওয়ার্ড'
+            submit_button: 'পরিবর্তন সংরক্ষণ করুন'
+            title: 'আপনার পাসওয়ার্ড পুনরায় সেট করুন'

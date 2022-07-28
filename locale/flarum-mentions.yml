@@ -1,0 +1,28 @@
+flarum-mentions:
+    email:
+        post_mentioned:
+            body: "আরে {recipient_display_name}!\n\n{replier_display_name} \"{title}\" এ আপনার পোস্টের (#{post_number}) উত্তর দিয়েছে।\n\n{url}\n\n---\n\n{content}"
+            subject: '{replier_display_name} "{title}" এ আপনার পোস্টের উত্তর দিয়েছেন'
+        user_mentioned:
+            body: "আরে {recipient_display_name}!\n\n{mentioner_display_name} আপনাকে \"{title}\" এ একটি পোস্টে মেনশন করেছে।\n\n{url}\n\n---\n\n{content}"
+            subject: '{mentioner_display_name} আপনাকে "{title}" এ মেনশন করেছেন'
+    forum:
+        composer:
+            mention_tooltip: 'ব্যবহারকারী বা পোস্ট মেনশন করুন'
+            reply_to_post_text: '#{number} এ উত্তর দিন'
+        notifications:
+            post_mentioned_text: '{username} আপনার পোস্টের উত্তর দিয়েছেন'
+            user_mentioned_text: '{username} আপনাকে মেনশন করেছেন'
+        post_mention:
+            deleted_text: '[অজ্ঞাত]'
+        post:
+            mentioned_by_self_text: '{users} এর উত্তর দিয়েছেন।'
+            mentioned_by_text: '{users} এর উত্তর দিয়েছেন।'
+            quote_button: উদ্ধৃতি
+            reply_link: 'উত্তর দিন'
+            you_text: আপনি
+        settings:
+            notify_post_mentioned_label: 'যখন কেউ একজন আমার পোস্টের উত্তর দেয়'
+            notify_user_mentioned_label: 'যদি পোস্টে কেউ আমাকে মেনশন করে'
+        user:
+            mentions_link: মেনশন

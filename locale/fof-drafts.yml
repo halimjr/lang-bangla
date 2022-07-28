@@ -1,0 +1,41 @@
+fof-drafts:
+    console:
+        scheduled_drafts_disabled: 'সিডিউল ড্রাফটগুলি বর্তমানে সেটিংসে অক্ষম করা হয়েছে।'
+    forum:
+        composer:
+            discard_empty_draft_alert: 'খালি ড্রাফট বাতিল করবেন?'
+            exit_alert: 'ড্রাফটে পরিবর্তন বাতিল করবেন?'
+            saved: সংরক্ষিত!
+            saving: 'সংরক্ষণ করা হচ্ছে…'
+            title: 'ড্রাফট সংরক্ষণ'
+        dropdown:
+            alert: 'আপনি কি আপনার ড্রাফট মুছে ফেলার বিষয়ে নিশ্চিত?'
+            delete_all_alert: 'আপনি কি আপনার সমস্ত ড্রাফট মুছে ফেলার বিষয়ে নিশ্চিত?'
+            delete_all_button: 'সব ড্রাফট মুছুন'
+            delete_button: 'ড্রাফট মুছুন'
+            empty_text: 'আপনি কোনো ড্রাফট সংরক্ষণ করেননি'
+            schedule_button: 'সিডিউল ড্রাফট'
+            scheduled_icon_tooltip: '{datetime} এর জন্য সিডিউল করা'
+            scheduled_icon_tooltip_formatter: 'L [-] LT'
+            title: ড্রাফট
+            tooltip: 'ড্রাফট করা পোস্ট'
+        schedule_draft_modal:
+            reschedule_button: রিসিডিউল
+            schedule_button: সিডিউল
+            schedule_time_preview: 'এই খসড়াটি <b>{datetime}</b> এ স্বয়ংক্রিয়ভাবে প্রকাশিত হবে।'
+            schedule_time_preview_invalid: 'অবৈধ তারিখ এবং/বা সময়'
+            scheduled_error: 'ড্রাফট শিডিউল করতে অক্ষম: {error}'
+            scheduled_text: 'বর্তমানে {datetime} তারিখে পোস্ট করার জন্য সিডিউল করা আছে।'
+            text: 'পরবর্তী সময়ে স্বয়ংক্রিয়ভাবে পোস্ট করার জন্য আপনার ড্রাফট সিডিউল করুন!'
+            title: 'সিডিউল ড্রাফট'
+            unschedule_button: 'সিডিউল বাতিল করুন'
+            unschedule_warning: 'আপনি কি এই ড্রাফটটির সিডিউল বাতিল করার বিষয়ে নিশ্চিত?'
+        user:
+            settings:
+                draft_autosave_enable: 'ড্রাফট স্বয়ংসংরক্ষণ চালু করবেন?'
+                draft_autosave_interval_button: 'ব্যবধান হালনাগাদ করুন'
+                draft_autosave_interval_invalid: 'ব্যবধানটি অবশ্যই ৪ এর বেশি একটি পূর্ণসংখ্যা হতে হবে।'
+                draft_autosave_interval_label: 'স্বয়ংক্রিয়ভাবে সংরক্ষণের ব্যবধান (সেকেন্ড)'
+                drafts_heading: ড্রাফট
+    ref:
+        schedule_draft: 'সিডিউল ড্রাফট'

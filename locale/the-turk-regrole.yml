@@ -1,0 +1,13 @@
+the-turk-regrole:
+    forum:
+        choose_role_button_label: 'আপনার ভূমিকা নির্বাচন করুন <small>(না হলে এড়িয়ে যান)</small>'
+        choose_role_modal:
+            choose_role_heading: 'আপনার ভূমিকা নির্বাচন করুন <small>(না হলে এড়িয়ে যান)</small>'
+            choose_role_text: 'আমাদের ফোরাম ব্যবহার চালিয়ে যেতে একটি ভূমিকা নির্বাচন করুন।'
+            save_button: 'পরিবর্তন সংরক্ষণ করুন'
+        required_role_message: 'আপনাকে অবশ্যই একটি ভূমিকা বেছে নিতে হবে।'
+        sign_up_modal:
+            choose_role_heading: 'আপনার ভূমিকা নির্বাচন করুন <small>(না হলে এড়িয়ে যান)</small>'
+        suspended_temporarily_message: 'আপনি একটি ভূমিকা বেছে না নেওয়া পর্যন্ত আমরা আপনার অ্যাকাউন্ট সাময়িকভাবে স্থগিত থাকবে।'
+    ref:
+        choose_a_role: 'আপনার ভূমিকা নির্বাচন করুন <small>(না হলে এড়িয়ে যান)</small>'

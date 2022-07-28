@@ -1,0 +1,14 @@
+flarum-likes:
+    forum:
+        notifications:
+            post_liked_text: '{username} আপনার পোস্ট পছন্দ করেছেন'
+        post_likes:
+            title: 'ব্যবহারকারীরা যারা এটি পছন্দ করেন'
+        post:
+            like_link: 'পছন্দ করুন'
+            liked_by_self_text: '{users} এটা পছন্দ করেন।'
+            liked_by_text: '{count, plural, one {{users} এটা পছন্দ করেন} other {{users} এটা পছন্দ করেন}}।'
+            unlike_link: 'অপছন্দ করুন'
+            you_text: আপনি
+        settings:
+            notify_post_liked_label: 'যখন কেউ আমার পোস্ট পছন্দ করে'

@@ -1,0 +1,8 @@
+afrux-forum-stats-widget:
+    forum:
+        widget:
+            stats:
+                comment_post_count: পোস্ট
+                discussion_count: আলোচনা
+                user_count: ব্যবহারকারী
+            title: 'ফোরামের পরিসংখ্যান'

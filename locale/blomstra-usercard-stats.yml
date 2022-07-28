@@ -1,0 +1,5 @@
+blomstra-usercard-stats:
+    forum:
+        user:
+            discussion-count: '{count, plural, one { {count} আলোচনা} other {{count} আলোচনা}}'
+            post-count: '{count, plural, one { {count} পোস্ট} other {{count} পোস্ট}}'

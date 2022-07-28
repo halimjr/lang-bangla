@@ -1,0 +1,5 @@
+afrux-online-users-widget:
+    forum:
+        widget:
+            empty: 'বর্তমানে অনলাইনে কোনো ব্যবহারকারী নেই।'
+            title: 'অনলাইন ব্যবহারকারী'

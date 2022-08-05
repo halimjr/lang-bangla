@@ -23,7 +23,7 @@ flarum-subscriptions:
         sub_controls:
             follow_button: 'অনুসরণ করুন'
             following_button: 'অনুসরণ করছেন'
-            following_text: 'সব উত্তর সম্পর্কে অবহিত করা হবে'
+            following_text: 'সব উত্তর সম্পর্কে আপনাকে অবহিত করা হবে'
             ignoring_button: 'উপেক্ষা করছেন'
             ignoring_text: 'কখনই আপনাকে অবহিত করা হবে না। আলোচনা তালিকা থেকে আড়াল করুন।'
             not_following_button: 'অনুসরণ করছেন না'

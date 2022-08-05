@@ -1,0 +1,16 @@
+sycho-profile-cover:
+    admin:
+        max_size: 'প্রোফাইল কভার চিত্রের সর্বাধিক সাইজ (কেবিতে)'
+        permission:
+            set_cover: 'প্রোফাইল কভার সেট করুন'
+        thumbnails: 'থাম্বনেইল তৈরি করুন'
+    forum:
+        added:
+            error: 'ছবিটি আপলোড করা যায়নি।'
+            success: 'প্রোফাইল কভার আপডেট করা হয়েছে।'
+        cover: কভার
+        edit_cover: 'কভার সম্পাদনা করুন'
+        notice: 'সর্বাধিক সাইজ: {size}'
+        removed:
+            error: 'কভার সরানো যায়নি, পরে আবার চেষ্টা করুন।'
+            success: 'প্রোফাইল কভার সরানো হয়েছে।'

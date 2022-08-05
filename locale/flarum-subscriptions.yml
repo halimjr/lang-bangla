@@ -27,7 +27,7 @@ flarum-subscriptions:
             ignoring_button: 'উপেক্ষা করছেন'
             ignoring_text: 'কখনই আপনাকে অবহিত করা হবে না। আলোচনা তালিকা থেকে আড়াল করুন।'
             not_following_button: 'অনুসরণ করছেন না'
-            not_following_text: 'শুধুমাত্র @মেনশন হলেই অবহিত করা হবে'
+            not_following_text: 'শুধুমাত্র @মেনশন হলেই আপনাকে অবহিত করা হবে'
             notify_alert_tooltip: 'যখন নতুন পোস্ট হয় তখন ফোরামের নোটিফিকেশন পান'
             notify_email_tooltip: 'নতুন পোস্ট হলে একটি ইমেইল পান'
     ref:

@@ -1,0 +1,8 @@
+fof-spamblock:
+    admin:
+        permissions:
+            spamblock_users_label: 'ব্যবহারকারীকে স্প্যামার হিসেবে চিহ্নিত করুন'
+    forum:
+        user_controls:
+            spammer_button: স্প্যামার
+            spammer_confirmation: "আপনি কি নিশ্চিত\n• ব্যবহারকারীর সমস্ত আলোচনা এবং পোস্ট লুকাতে\n• ব্যবহারকারীকে সাসপেন্ড করতে"
